@@ -2,7 +2,7 @@
 
 ## 总览
 
-项目已完成阶段一、阶段二、阶段三、阶段 4.1 本地 WebRTC smoke test、阶段 4.2 DataChannel token 协议、阶段 4.3 离线端到端 loopback，并已完成 live aiortc DataChannel token packet loopback。当前进入最终报告整理。
+项目已完成阶段一、阶段二、阶段三、阶段 4.1 本地 WebRTC smoke test、阶段 4.2 DataChannel token 协议、阶段 4.3 离线端到端 loopback、live aiortc DataChannel token packet loopback，以及最终报告初稿。当前可进入演示录屏或 Janus/真实摄像头增强。
 
 ## 已完成提交
 
@@ -21,6 +21,8 @@
 - `39e7be9 feat(abr): add rule based controller`
 - `df9f47e feat(webrtc): add local loopback smoke test`
 - `9005322 feat(protocol): add datachannel token packets`
+- `e5ecf39 feat(e2e): add offline progvc loopback`
+- `2675cc5 feat(webrtc): send token packets over datachannel`
 
 ## 阶段一成果
 
@@ -101,5 +103,5 @@
 
 ## 当前待办
 
-- 整理 `docs/final_report.md`，汇总环境、数据、baseline、ProGVC、传输、ABR、端到端性能和失败记录。
-- 视时间补一个 3-5 分钟演示脚本/录屏说明。
+- 根据 `docs/demo_script.md` 录制 3-5 分钟演示视频。
+- 可选增强：将 live sender/receiver 接入 Janus 或真实摄像头。

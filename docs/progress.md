@@ -18,11 +18,12 @@
 - 2026-05-08：完成阶段 4.2 DataChannel token 协议：实现二进制打包/解包、乱序重组、deadline/timeout 丢弃和丢包鲁棒性仿真。
 - 2026-05-08：完成阶段 4.3 离线端到端 loopback：串联 tokenizer、ABR、调度仿真、DataChannel protocol、context fallback 和 CNN-GAN generator，输出延迟/显存/码率/卡顿率报告。
 - 2026-05-08：完成 live aiortc DataChannel token packet loopback：真实 DataChannel 上传输 8 帧 4 层 token packet，并在接收端完成二进制重组。
+- 2026-05-08：完成最终报告初稿和演示脚本：汇总环境、数据、baseline、ProGVC、传输、ABR、WebRTC、端到端性能和已知限制。
 
 ## 当前阶段
 
 - 阶段四：WebRTC 集成与端到端系统联调。
-- 当前重点：整理最终报告与演示说明。
+- 当前重点：等待最终演示录屏或进一步接入 Janus/真实摄像头。
 
 ## 检查点
 
@@ -55,4 +56,5 @@
 - [x] 离线 WebRTC/DataChannel token loopback 集成。
 - [x] `sender_main.py` / `receiver_main.py` 原型入口。
 - [x] live aiortc DataChannel token packet loopback。
-- [ ] `docs/final_report.md` 汇总最终课程报告。
+- [x] `docs/final_report.md` 汇总最终课程报告。
+- [x] `docs/demo_script.md` 记录演示流程。

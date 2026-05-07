@@ -6,5 +6,5 @@ tests/test_progvc_codec.py::test_fallback_predict_tokens_returns_full_scale_set
   Warning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-33 passed, 3 warnings in 2.28s
+33 passed, 3 warnings in 2.42s
 
