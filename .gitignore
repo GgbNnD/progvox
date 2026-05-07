@@ -1,0 +1,41 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor state
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and heavy artifacts
+data/raw/
+data/processed/
+data/external/
+data/tmp/
+checkpoints/
+runs/
+wandb/
+
+# Generated media and bulky reports
+reports/reconstructions/
+reports/videos/
+reports/*.mp4
+reports/*.mkv
+reports/*.webm
+reports/*.y4m
+reports/*.yuv
+
+# Logs can be regenerated unless explicitly copied into docs/reports.
+*.log
