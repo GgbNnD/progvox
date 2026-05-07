@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-05-07T16:44:50.169040+00:00",
+  "input": "data/raw/xiph_small",
+  "video_count": 5,
+  "error_count": 0,
+  "total_duration_seconds": 54.254,
+  "total_frames": 1626,
+  "resolution_distribution": {
+    "176x144": 3,
+    "352x288": 2
+  },
+  "records": [
+    {
+      "path": "data/raw/xiph_small/carphone_qcif.y4m",
+      "name": "carphone_qcif.y4m",
+      "bytes": 14524448,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 382,
+      "duration_seconds": 12.746067,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/raw/xiph_small/claire_qcif.y4m",
+      "name": "claire_qcif.y4m",
+      "bytes": 18782912,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 494,
+      "duration_seconds": 16.483133,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/raw/xiph_small/foreman_cif.y4m",
+      "name": "foreman_cif.y4m",
+      "bytes": 45621044,
+      "status": "ok",
+      "error": null,
+      "width": 352,
+      "height": 288,
+      "fps": 29.97002997002997,
+      "frames": 300,
+      "duration_seconds": 10.01,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/raw/xiph_small/news_cif.y4m",
+      "name": "news_cif.y4m",
+      "bytes": 45621044,
+      "status": "ok",
+      "error": null,
+      "width": 352,
+      "height": 288,
+      "fps": 29.97002997002997,
+      "frames": 300,
+      "duration_seconds": 10.01,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/raw/xiph_small/suzie_qcif.y4m",
+      "name": "suzie_qcif.y4m",
+      "bytes": 5703344,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 150,
+      "duration_seconds": 5.005,
+      "pix_fmt": "yuv420p"
+    }
+  ],
+  "ok": true
+}

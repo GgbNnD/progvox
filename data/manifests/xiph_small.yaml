@@ -1,0 +1,38 @@
+dataset: xiph_small
+description: >
+  Small Xiph Derf Y4M subset used to smoke-test environment setup, dataset
+  statistics, preprocessing, and SSF2020 baseline evaluation before expanding
+  to UVG/VoxCeleb2.
+source: https://media.xiph.org/video/derf/y4m/
+license_note: Public test media mirrored by Xiph; verify sequence-specific terms before publication.
+videos:
+  - id: claire_qcif
+    filename: claire_qcif.y4m
+    url: https://media.xiph.org/video/derf/y4m/claire_qcif.y4m
+    expected_bytes: 18782912
+    expected_resolution: [176, 144]
+    category: talking_head
+  - id: carphone_qcif
+    filename: carphone_qcif.y4m
+    url: https://media.xiph.org/video/derf/y4m/carphone_qcif.y4m
+    expected_bytes: 14524448
+    expected_resolution: [176, 144]
+    category: talking_head
+  - id: suzie_qcif
+    filename: suzie_qcif.y4m
+    url: https://media.xiph.org/video/derf/y4m/suzie_qcif.y4m
+    expected_bytes: 5703344
+    expected_resolution: [176, 144]
+    category: talking_head
+  - id: news_cif
+    filename: news_cif.y4m
+    url: https://media.xiph.org/video/derf/y4m/news_cif.y4m
+    expected_bytes: 45621044
+    expected_resolution: [352, 288]
+    category: talking_head
+  - id: foreman_cif
+    filename: foreman_cif.y4m
+    url: https://media.xiph.org/video/derf/y4m/foreman_cif.y4m
+    expected_bytes: 45621044
+    expected_resolution: [352, 288]
+    category: motion

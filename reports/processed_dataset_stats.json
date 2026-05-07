@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-05-07T16:45:06.674265+00:00",
+  "input": "data/processed/xiph_small_clips",
+  "video_count": 5,
+  "error_count": 0,
+  "total_duration_seconds": 10.677,
+  "total_frames": 320,
+  "resolution_distribution": {
+    "176x144": 3,
+    "352x288": 2
+  },
+  "records": [
+    {
+      "path": "data/processed/xiph_small_clips/carphone_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "name": "carphone_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "bytes": 2433024,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97,
+      "frames": 64,
+      "duration_seconds": 2.135468802135469,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/processed/xiph_small_clips/claire_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "name": "claire_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "bytes": 2433024,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97,
+      "frames": 64,
+      "duration_seconds": 2.135468802135469,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/processed/xiph_small_clips/foreman_cif_352x288_29.97fps_8bit_P420.yuv",
+      "name": "foreman_cif_352x288_29.97fps_8bit_P420.yuv",
+      "bytes": 9732096,
+      "status": "ok",
+      "error": null,
+      "width": 352,
+      "height": 288,
+      "fps": 29.97,
+      "frames": 64,
+      "duration_seconds": 2.135468802135469,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/processed/xiph_small_clips/news_cif_352x288_29.97fps_8bit_P420.yuv",
+      "name": "news_cif_352x288_29.97fps_8bit_P420.yuv",
+      "bytes": 9732096,
+      "status": "ok",
+      "error": null,
+      "width": 352,
+      "height": 288,
+      "fps": 29.97,
+      "frames": 64,
+      "duration_seconds": 2.135468802135469,
+      "pix_fmt": "yuv420p"
+    },
+    {
+      "path": "data/processed/xiph_small_clips/suzie_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "name": "suzie_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "bytes": 2433024,
+      "status": "ok",
+      "error": null,
+      "width": 176,
+      "height": 144,
+      "fps": 29.97,
+      "frames": 64,
+      "duration_seconds": 2.135468802135469,
+      "pix_fmt": "yuv420p"
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-05-07T16:44:51.583486+00:00",
+  "input": "data/raw/xiph_small",
+  "output": "data/processed/xiph_small_clips",
+  "requested_frames": 64,
+  "records": [
+    {
+      "source": "data/raw/xiph_small/carphone_qcif.y4m",
+      "output": "data/processed/xiph_small_clips/carphone_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "status": "written",
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 64,
+      "bytes": 2433024,
+      "ok": true
+    },
+    {
+      "source": "data/raw/xiph_small/claire_qcif.y4m",
+      "output": "data/processed/xiph_small_clips/claire_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "status": "written",
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 64,
+      "bytes": 2433024,
+      "ok": true
+    },
+    {
+      "source": "data/raw/xiph_small/foreman_cif.y4m",
+      "output": "data/processed/xiph_small_clips/foreman_cif_352x288_29.97fps_8bit_P420.yuv",
+      "status": "written",
+      "width": 352,
+      "height": 288,
+      "fps": 29.97002997002997,
+      "frames": 64,
+      "bytes": 9732096,
+      "ok": true
+    },
+    {
+      "source": "data/raw/xiph_small/news_cif.y4m",
+      "output": "data/processed/xiph_small_clips/news_cif_352x288_29.97fps_8bit_P420.yuv",
+      "status": "written",
+      "width": 352,
+      "height": 288,
+      "fps": 29.97002997002997,
+      "frames": 64,
+      "bytes": 9732096,
+      "ok": true
+    },
+    {
+      "source": "data/raw/xiph_small/suzie_qcif.y4m",
+      "output": "data/processed/xiph_small_clips/suzie_qcif_176x144_29.97fps_8bit_P420.yuv",
+      "status": "written",
+      "width": 176,
+      "height": 144,
+      "fps": 29.97002997002997,
+      "frames": 64,
+      "bytes": 2433024,
+      "ok": true
+    }
+  ],
+  "ok": true
+}

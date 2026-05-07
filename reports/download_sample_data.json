@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-05-07T16:44:42.491536+00:00",
+  "dataset": "xiph_small",
+  "manifest": "data/manifests/xiph_small.yaml",
+  "output_root": "data/raw/xiph_small",
+  "records": [
+    {
+      "id": "claire_qcif",
+      "status": "downloaded",
+      "path": "data/raw/xiph_small/claire_qcif.y4m",
+      "bytes": 18782912,
+      "sha256": "561f5a3ff46919cdeb95a0e9330ca2425f41016f91221ca1bc9ddd73b193a889",
+      "elapsed_seconds": 23.727,
+      "resumed_from": 12582912
+    },
+    {
+      "id": "carphone_qcif",
+      "status": "downloaded",
+      "path": "data/raw/xiph_small/carphone_qcif.y4m",
+      "bytes": 14524448,
+      "sha256": "bd176aee36dd839dcec88671acc811c61f72ea45ee458afb82b35e8b92328aa9",
+      "elapsed_seconds": 231.188,
+      "resumed_from": 0
+    },
+    {
+      "id": "suzie_qcif",
+      "status": "downloaded",
+      "path": "data/raw/xiph_small/suzie_qcif.y4m",
+      "bytes": 5703344,
+      "sha256": "e1cc982dd0e3ccdf1e0cfa4b2951b3b6c786cfd35b202045fc0f9908cd09e884",
+      "elapsed_seconds": 106.325,
+      "resumed_from": 0
+    },
+    {
+      "id": "news_cif",
+      "status": "downloaded",
+      "path": "data/raw/xiph_small/news_cif.y4m",
+      "bytes": 45621044,
+      "sha256": "ff65a92e5fca985b56f1dad3680da5fd44b3255de0befbcbe3d1402ce3fb8834",
+      "elapsed_seconds": 30.319,
+      "resumed_from": 0
+    },
+    {
+      "id": "foreman_cif",
+      "status": "downloaded",
+      "path": "data/raw/xiph_small/foreman_cif.y4m",
+      "bytes": 45621044,
+      "sha256": "b0e3c35eff9fe1da91521a02eb9f0e3ef4bc5aec341ecef1567cd87f1711267b",
+      "elapsed_seconds": 34.854,
+      "resumed_from": 0
+    }
+  ],
+  "ok": true
+}
