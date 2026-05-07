@@ -11,11 +11,12 @@
 - 2026-05-08：完成阶段 2.1 tokenizer 原型：4/8/16/32 多尺度残差 token map、RGB 向量码本量化、截断重建、单测和 50 帧分析报告。
 - 2026-05-08：完成阶段 2.2 生成器小型消融：纯 CNN、CNN+GAN、轻量 Diffusion 均可训练/推理，`cnn_gan` 在短程实验中暂时领先。
 - 2026-05-08：完成阶段 2.3 离线 ProGVC 原型链路：tokenizer、上下文模型接口、缺失 token fallback、CNN+GAN 生成器和集成评测报告。
+- 2026-05-08：正式训练上下文模型：基于 Xiph 小样本生成 1360 长度 token 序列，保存本地 checkpoint/TensorBoard 日志，并归档训练指标与报告。
 
 ## 当前阶段
 
-- 阶段二：生成式压缩核心实现。
-- 当前重点：推进阶段三的分层 token 调度器和网络 trace 仿真。
+- 阶段三：渐进式传输与自适应码率。
+- 当前重点：推进阶段 3.1 的分层 token 调度器和网络 trace 仿真。
 
 ## 检查点
 
@@ -34,3 +35,7 @@
 - [x] `models/context_model.py` 提供 GPT-style 自回归 token Transformer 与 flatten/unflatten 工具。
 - [x] `run_progvc_codec.py` 可按最大 token 层级模拟传输并输出解码视频/指标。
 - [x] `docs/progvc_integration_test.md` 记录 Layer 2/Layer 3 原型链路结果与 SSF2020 参考。
+- [x] `train/train_context_model.py` 完成上下文模型正式训练并输出 `docs/context_model_training.md`。
+- [ ] `transport/scheduler.py` 实现分层 token 调度器。
+- [ ] `docs/network_emu_guide.md` 记录弱网环境复现方法。
+- [ ] `docs/scheduler_comparison.md` 对比贪婪调度和滑动窗口调度。

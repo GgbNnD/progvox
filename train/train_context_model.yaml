@@ -1,0 +1,23 @@
+seed: 20260508
+input: data/processed/xiph_small_clips
+resize: 64
+sample_frames: 160
+train_frames: 128
+batch_size: 2
+train_steps: 80
+learning_rate: 0.0005
+grad_clip: 1.0
+eval_every: 20
+checkpoint_dir: checkpoints/context_model
+log_dir: runs/context_model
+report_dir: reports
+docs_report: docs/context_model_training.md
+tokenizer:
+  levels: 4
+  codebook_size: 512
+  max_token_resolution: 32
+context_model:
+  d_model: 64
+  num_layers: 2
+  num_heads: 4
+  dropout: 0.0

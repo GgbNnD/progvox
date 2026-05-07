@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-05-07T19:34:45.418612+00:00",
+  "device": "cuda",
+  "sequence_length": 1360,
+  "token_shapes": [
+    [
+      4,
+      4
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      32,
+      32
+    ]
+  ],
+  "checkpoint": "checkpoints/context_model/context_model.pth",
+  "rows": [
+    {
+      "step": 1,
+      "train_loss": 6.4561543464660645,
+      "val_loss": 6.430806457996368,
+      "val_perplexity": 620.6742939791123,
+      "val_accuracy": 0.0021845106696100074
+    },
+    {
+      "step": 20,
+      "train_loss": 5.745081901550293,
+      "val_loss": 5.712882101535797,
+      "val_perplexity": 302.7423463050573,
+      "val_accuracy": 0.02248896247240618
+    },
+    {
+      "step": 40,
+      "train_loss": 5.155068874359131,
+      "val_loss": 4.883038580417633,
+      "val_perplexity": 132.03124253047554,
+      "val_accuracy": 0.029571376011773363
+    },
+    {
+      "step": 60,
+      "train_loss": 4.64026403427124,
+      "val_loss": 4.406854748725891,
+      "val_perplexity": 82.0111118726748,
+      "val_accuracy": 0.02819168506254599
+    },
+    {
+      "step": 80,
+      "train_loss": 4.578775882720947,
+      "val_loss": 4.224792540073395,
+      "val_perplexity": 68.36032005037488,
+      "val_accuracy": 0.04099981604120677
+    }
+  ],
+  "config": {
+    "seed": 20260508,
+    "input": "data/processed/xiph_small_clips",
+    "resize": 64,
+    "sample_frames": 160,
+    "train_frames": 128,
+    "batch_size": 2,
+    "train_steps": 80,
+    "learning_rate": 0.0005,
+    "grad_clip": 1.0,
+    "eval_every": 20,
+    "checkpoint_dir": "checkpoints/context_model",
+    "log_dir": "runs/context_model",
+    "report_dir": "reports",
+    "docs_report": "docs/context_model_training.md",
+    "tokenizer": {
+      "levels": 4,
+      "codebook_size": 512,
+      "max_token_resolution": 32
+    },
+    "context_model": {
+      "d_model": 64,
+      "num_layers": 2,
+      "num_heads": 4,
+      "dropout": 0.0
+    }
+  }
+}
