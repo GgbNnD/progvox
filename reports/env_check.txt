@@ -1,0 +1,26 @@
+# Environment Check
+
+- Overall status: PASS
+- Python: 3.10.19
+- Torch: 2.9.1+cu130 / CUDA available: True
+- CUDA runtime reported by torch: 13.0
+- GPU devices: NVIDIA GeForce RTX 4060 Laptop GPU
+- CompressAI: 1.2.8
+- OpenCV: 4.10.0
+- NumPy: 1.26.4
+- BD-Rate helper: bjontegaard 1.3.0
+- ffmpeg: ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+
+## Checks
+
+- [x] python_3_10
+- [x] cuda_available
+- [x] rtx_4060_visible
+- [x] compressai_imports
+- [x] ffmpeg_available
+- [x] bdrate_library_available
+
+## Notes
+
+- python-bdrate was unavailable for this Python/PyPI combination; bjontegaard==1.3.0 is used instead.
+- OpenCV is pinned to 4.10.0.84 because CompressAI 1.2.8 requires numpy<2.0.
