@@ -2,7 +2,7 @@
 
 ## 总览
 
-项目已完成阶段一、阶段二、阶段三和阶段 4.1 本地 WebRTC smoke test，当前已从“离线压缩/生成链路”推进到“WebRTC/DataChannel 联调”。
+项目已完成阶段一、阶段二、阶段三、阶段 4.1 本地 WebRTC smoke test 和阶段 4.2 DataChannel token 协议，当前已进入端到端 demo 集成准备。
 
 ## 已完成提交
 
@@ -74,8 +74,16 @@
 - 最新 smoke test：DataChannel 5/5 ack，视频收帧 12，sender/receiver 均 connected。
 - Janus 部署草案：`docs/janus_setup.md`；信令流程：`docs/webrtc_signaling_flow.md`。
 
+## 阶段 4.2 成果
+
+- `transport/datachannel_proto.py` 已实现 ProGVC token 二进制包协议。
+- 协议字段包括 magic/version/flags、frame id、layer id、chunk id/count、deadline、payload length 和 CRC32。
+- `FrameReassembler` 支持乱序分片重组、重复 chunk 统计、deadline 和 timeout 丢弃。
+- 鲁棒性仿真：1% 丢包 decodable frame rate 99.2%，3% 为 96.7%，5% 为 92.5%。
+- 报告：`docs/protocol_robustness.md`，指标：`reports/datachannel_protocol_robustness.csv`。
+
 ## 当前待办
 
-- 阶段 4.2：实现 `transport/datachannel_proto.py`，把 token 层级、帧号、deadline 和 payload 打包为 DataChannel 二进制包。
-- 增加乱序重组、超时丢弃和丢包率仿真报告。
-- 阶段 4.3：把 tokenizer/context/generator/scheduler/ABR 接入离线 loopback，再推进实时摄像头 demo。
+- 阶段 4.3：把 tokenizer/context/generator/scheduler/ABR/DataChannel protocol 接入离线 loopback。
+- 增加 `sender_main.py` / `receiver_main.py` 原型入口。
+- 记录编码延迟、生成延迟、端到端延迟、显存占用和卡顿率。

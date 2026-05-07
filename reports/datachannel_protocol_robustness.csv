@@ -1,0 +1,4 @@
+loss_rate,frames,packets_sent,packets_delivered,packet_delivery_rate,decodable_frames,decodable_frame_rate,full_frames,full_frame_rate,completed_layers,completed_layer_rate,expired_assemblies,duplicate_chunks
+0.01,120,840,834,0.9928571428571429,119,0.9916666666666667,114,0.95,474,0.9875,4,0
+0.03,120,840,817,0.9726190476190476,116,0.9666666666666667,99,0.825,457,0.9520833333333333,11,0
+0.05,120,840,789,0.9392857142857143,111,0.925,78,0.65,431,0.8979166666666667,21,0

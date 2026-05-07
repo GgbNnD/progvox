@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-07T20:01:25.957909+00:00",
+  "rows": [
+    {
+      "loss_rate": 0.01,
+      "frames": 120,
+      "packets_sent": 840,
+      "packets_delivered": 834,
+      "packet_delivery_rate": 0.9928571428571429,
+      "decodable_frames": 119,
+      "decodable_frame_rate": 0.9916666666666667,
+      "full_frames": 114,
+      "full_frame_rate": 0.95,
+      "completed_layers": 474,
+      "completed_layer_rate": 0.9875,
+      "expired_assemblies": 4,
+      "duplicate_chunks": 0
+    },
+    {
+      "loss_rate": 0.03,
+      "frames": 120,
+      "packets_sent": 840,
+      "packets_delivered": 817,
+      "packet_delivery_rate": 0.9726190476190476,
+      "decodable_frames": 116,
+      "decodable_frame_rate": 0.9666666666666667,
+      "full_frames": 99,
+      "full_frame_rate": 0.825,
+      "completed_layers": 457,
+      "completed_layer_rate": 0.9520833333333333,
+      "expired_assemblies": 11,
+      "duplicate_chunks": 0
+    },
+    {
+      "loss_rate": 0.05,
+      "frames": 120,
+      "packets_sent": 840,
+      "packets_delivered": 789,
+      "packet_delivery_rate": 0.9392857142857143,
+      "decodable_frames": 111,
+      "decodable_frame_rate": 0.925,
+      "full_frames": 78,
+      "full_frame_rate": 0.65,
+      "completed_layers": 431,
+      "completed_layer_rate": 0.8979166666666667,
+      "expired_assemblies": 21,
+      "duplicate_chunks": 0
+    }
+  ]
+}

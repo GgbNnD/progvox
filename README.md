@@ -14,6 +14,7 @@ python eval/run_lvc_baseline.py --input data/processed/xiph_small_clips --qualit
 python scripts/simulate_scheduler.py
 python scripts/simulate_abr.py
 python scripts/run_webrtc_loopback.py
+python scripts/simulate_datachannel_proto.py
 ```
 
 ## 目录
