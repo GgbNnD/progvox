@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-07T20:09:58.261713+00:00",
+  "result": {
+    "ok": true,
+    "datachannel_label": "progvc-tokens",
+    "frames": 8,
+    "layers": 4,
+    "packets_sent": 56,
+    "packets_received": 56,
+    "bytes_received": 13752,
+    "completed_layers": 32,
+    "expected_layers": 32,
+    "elapsed_ms": 285.7193450035993,
+    "sender_connection_state": "connected",
+    "receiver_connection_state": "connected",
+    "expired_assemblies": 0,
+    "duplicate_chunks": 0
+  }
+}

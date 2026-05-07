@@ -16,6 +16,7 @@ python scripts/simulate_abr.py
 python scripts/run_webrtc_loopback.py
 python scripts/simulate_datachannel_proto.py
 python scripts/run_offline_loopback.py --frames 64
+python scripts/run_webrtc_token_loopback.py
 ```
 
 ## 目录

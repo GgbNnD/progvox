@@ -17,11 +17,12 @@
 - 2026-05-08：完成阶段 4.1 本地 WebRTC loopback smoke test：安装 `aiortc`/`websockets`，验证 DataChannel ping/ack 和合成视频轨道收帧。
 - 2026-05-08：完成阶段 4.2 DataChannel token 协议：实现二进制打包/解包、乱序重组、deadline/timeout 丢弃和丢包鲁棒性仿真。
 - 2026-05-08：完成阶段 4.3 离线端到端 loopback：串联 tokenizer、ABR、调度仿真、DataChannel protocol、context fallback 和 CNN-GAN generator，输出延迟/显存/码率/卡顿率报告。
+- 2026-05-08：完成 live aiortc DataChannel token packet loopback：真实 DataChannel 上传输 8 帧 4 层 token packet，并在接收端完成二进制重组。
 
 ## 当前阶段
 
 - 阶段四：WebRTC 集成与端到端系统联调。
-- 当前重点：推进实时 DataChannel loopback 与最终报告整理。
+- 当前重点：整理最终报告与演示说明。
 
 ## 检查点
 
@@ -53,5 +54,5 @@
 - [x] `docs/protocol_robustness.md` 记录 1%/3%/5% 丢包鲁棒性结果。
 - [x] 离线 WebRTC/DataChannel token loopback 集成。
 - [x] `sender_main.py` / `receiver_main.py` 原型入口。
-- [ ] live aiortc DataChannel token packet loopback。
+- [x] live aiortc DataChannel token packet loopback。
 - [ ] `docs/final_report.md` 汇总最终课程报告。

@@ -2,7 +2,7 @@
 
 ## 总览
 
-项目已完成阶段一、阶段二、阶段三、阶段 4.1 本地 WebRTC smoke test、阶段 4.2 DataChannel token 协议和阶段 4.3 离线端到端 loopback，当前进入实时 DataChannel loopback 与最终报告整理。
+项目已完成阶段一、阶段二、阶段三、阶段 4.1 本地 WebRTC smoke test、阶段 4.2 DataChannel token 协议、阶段 4.3 离线端到端 loopback，并已完成 live aiortc DataChannel token packet loopback。当前进入最终报告整理。
 
 ## 已完成提交
 
@@ -93,8 +93,13 @@
 - 性能剖析：encode 1.77 ms/frame，packetize 0.12 ms/frame，reassemble 0.02 ms/frame，decode 1.36 ms/frame，generator 1.84 ms/frame，估计端到端延迟 136.2 ms，峰值显存 284.1 MB。
 - `sender_main.py` 和 `receiver_main.py` 已作为当前一进程 loopback 原型入口，后续可拆为 live sender/receiver。
 
+## Live Token DataChannel
+
+- `transport/webrtc_token_loopback.py` 已把 ProGVC binary token packets 发送到真实 aiortc DataChannel。
+- `scripts/run_webrtc_token_loopback.py` 已输出 `docs/webrtc_token_loopback_report.md` 和 `reports/webrtc_token_loopback.json`。
+- 最新结果：8 帧 x 4 层，56/56 packets received，32/32 layers completed，双方 connected，耗时约 285.7 ms。
+
 ## 当前待办
 
-- 将 `transport/datachannel_proto.py` 的 packet payload 接入 live `aiortc` DataChannel loopback。
 - 整理 `docs/final_report.md`，汇总环境、数据、baseline、ProGVC、传输、ABR、端到端性能和失败记录。
 - 视时间补一个 3-5 分钟演示脚本/录屏说明。
