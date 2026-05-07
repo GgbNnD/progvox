@@ -8,11 +8,12 @@
 - 2026-05-08：新增并运行 `scripts/check_env.py`，环境检查通过，报告写入 `reports/env_check.*`。
 - 2026-05-08：新增 Xiph 小样本 manifest、并发断点下载、数据统计和 64 帧 YUV420 预处理脚本；五个样本均已下载和预处理。
 - 2026-05-08：新增并运行 SSF2020 baseline 包装器，输出 `reports/ssf2020_rd_points.csv`、`reports/lvc_baseline.md` 和 RD 曲线图。
+- 2026-05-08：完成阶段 2.1 tokenizer 原型：4/8/16/32 多尺度残差 token map、RGB 向量码本量化、截断重建、单测和 50 帧分析报告。
 
 ## 当前阶段
 
-- 阶段一：环境搭建与学习型编码器基础。
-- 当前重点：补齐 `alg` 环境依赖，建立 Xiph 小样本数据管线，跑通 SSF2020 baseline。
+- 阶段二：生成式压缩核心实现。
+- 当前重点：基于已完成的 tokenizer 原型推进生成器和上下文模型。
 
 ## 检查点
 
@@ -22,3 +23,6 @@
 - [x] `dataset_stats.py` 输出视频数量、分辨率、帧数、时长。
 - [x] `prepare_test_videos.py` 生成每个至少 64 帧的测试片段。
 - [x] `eval/run_lvc_baseline.py` 输出 SSF2020 RD 点 CSV 与报告。
+- [x] `models/tokenizer.py` 输出 K=4 多尺度 token map 并支持截断重建。
+- [x] `tests/test_tokenizer.py` 通过并写入 `reports/test_tokenizer.txt`。
+- [x] `analysis_tokenizer.ipynb` 与 `docs/tokenizer_analysis.md` 记录 50 帧 token 码率/质量分析。
