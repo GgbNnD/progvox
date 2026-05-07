@@ -1,0 +1,3007 @@
+{
+  "generated_at": "2026-05-07T19:45:01.977175+00:00",
+  "trace": [
+    {
+      "slot": 0,
+      "bandwidth_kbps": 408.16156179678853,
+      "loss_rate": 0.005810190087094023,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13605,
+      "effective_capacity_bits": 13525
+    },
+    {
+      "slot": 1,
+      "bandwidth_kbps": 449.16402057419907,
+      "loss_rate": 0.004869235440010514,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14972,
+      "effective_capacity_bits": 14899
+    },
+    {
+      "slot": 2,
+      "bandwidth_kbps": 456.32871090642436,
+      "loss_rate": 0.008388267002951026,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15211,
+      "effective_capacity_bits": 15083
+    },
+    {
+      "slot": 3,
+      "bandwidth_kbps": 431.75573198744206,
+      "loss_rate": 0.010089228798273044,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14392,
+      "effective_capacity_bits": 14246
+    },
+    {
+      "slot": 4,
+      "bandwidth_kbps": 428.9279084067084,
+      "loss_rate": 0.00920374820394863,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14298,
+      "effective_capacity_bits": 14166
+    },
+    {
+      "slot": 5,
+      "bandwidth_kbps": 420.97616528142987,
+      "loss_rate": 0.005088556160126381,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14033,
+      "effective_capacity_bits": 13961
+    },
+    {
+      "slot": 6,
+      "bandwidth_kbps": 428.2029640074933,
+      "loss_rate": 0.013922225496064457,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14273,
+      "effective_capacity_bits": 14074
+    },
+    {
+      "slot": 7,
+      "bandwidth_kbps": 388.50923848947474,
+      "loss_rate": 0.006678867575284174,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12950,
+      "effective_capacity_bits": 12863
+    },
+    {
+      "slot": 8,
+      "bandwidth_kbps": 404.2145082410484,
+      "loss_rate": 0.015372507309484067,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13474,
+      "effective_capacity_bits": 13266
+    },
+    {
+      "slot": 9,
+      "bandwidth_kbps": 387.9739712726386,
+      "loss_rate": 0.008760165695809362,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12932,
+      "effective_capacity_bits": 12818
+    },
+    {
+      "slot": 10,
+      "bandwidth_kbps": 410.00756627815196,
+      "loss_rate": 0.004558992167413075,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13667,
+      "effective_capacity_bits": 13604
+    },
+    {
+      "slot": 11,
+      "bandwidth_kbps": 406.4104384883863,
+      "loss_rate": 0.007475311435980115,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13547,
+      "effective_capacity_bits": 13445
+    },
+    {
+      "slot": 12,
+      "bandwidth_kbps": 370.90455379226995,
+      "loss_rate": 0.005413506856940421,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12363,
+      "effective_capacity_bits": 12296
+    },
+    {
+      "slot": 13,
+      "bandwidth_kbps": 399.8925017995943,
+      "loss_rate": 0.013793516309440377,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13330,
+      "effective_capacity_bits": 13146
+    },
+    {
+      "slot": 14,
+      "bandwidth_kbps": 410.8287909729432,
+      "loss_rate": 0.010979201963949595,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13694,
+      "effective_capacity_bits": 13543
+    },
+    {
+      "slot": 15,
+      "bandwidth_kbps": 458.4764727988897,
+      "loss_rate": 0.008468770512708775,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15283,
+      "effective_capacity_bits": 15153
+    },
+    {
+      "slot": 16,
+      "bandwidth_kbps": 93.6796540650043,
+      "loss_rate": 0.01975346769967988,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3123,
+      "effective_capacity_bits": 3061
+    },
+    {
+      "slot": 17,
+      "bandwidth_kbps": 87.43206783083838,
+      "loss_rate": 0.02147150455383192,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2914,
+      "effective_capacity_bits": 2851
+    },
+    {
+      "slot": 18,
+      "bandwidth_kbps": 94.43978057299591,
+      "loss_rate": 0.024131107668032836,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3148,
+      "effective_capacity_bits": 3072
+    },
+    {
+      "slot": 19,
+      "bandwidth_kbps": 86.50850965901716,
+      "loss_rate": 0.026026742362091668,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2884,
+      "effective_capacity_bits": 2808
+    },
+    {
+      "slot": 20,
+      "bandwidth_kbps": 84.57389863499611,
+      "loss_rate": 0.02259720396236419,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2819,
+      "effective_capacity_bits": 2755
+    },
+    {
+      "slot": 21,
+      "bandwidth_kbps": 85.34296552904604,
+      "loss_rate": 0.027387933204754855,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2845,
+      "effective_capacity_bits": 2767
+    },
+    {
+      "slot": 22,
+      "bandwidth_kbps": 74.78177984530416,
+      "loss_rate": 0.025893084523104053,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2493,
+      "effective_capacity_bits": 2428
+    },
+    {
+      "slot": 23,
+      "bandwidth_kbps": 76.98861362394481,
+      "loss_rate": 0.029501649946881148,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2566,
+      "effective_capacity_bits": 2490
+    },
+    {
+      "slot": 24,
+      "bandwidth_kbps": 79.96196077955892,
+      "loss_rate": 0.02245525317868224,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2665,
+      "effective_capacity_bits": 2605
+    },
+    {
+      "slot": 25,
+      "bandwidth_kbps": 85.33672563136817,
+      "loss_rate": 0.02041678933905955,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2845,
+      "effective_capacity_bits": 2786
+    },
+    {
+      "slot": 26,
+      "bandwidth_kbps": 81.00083758526947,
+      "loss_rate": 0.028085691154782995,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2700,
+      "effective_capacity_bits": 2624
+    },
+    {
+      "slot": 27,
+      "bandwidth_kbps": 81.3151645902323,
+      "loss_rate": 0.02486755720570967,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2711,
+      "effective_capacity_bits": 2643
+    },
+    {
+      "slot": 28,
+      "bandwidth_kbps": 83.48789052311051,
+      "loss_rate": 0.027018590278412746,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2783,
+      "effective_capacity_bits": 2707
+    },
+    {
+      "slot": 29,
+      "bandwidth_kbps": 96.02821810557589,
+      "loss_rate": 0.02587631128332861,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3201,
+      "effective_capacity_bits": 3118
+    },
+    {
+      "slot": 30,
+      "bandwidth_kbps": 98.60062804525737,
+      "loss_rate": 0.022764970154177163,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3287,
+      "effective_capacity_bits": 3212
+    },
+    {
+      "slot": 31,
+      "bandwidth_kbps": 95.37215619499966,
+      "loss_rate": 0.02613243852526022,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3179,
+      "effective_capacity_bits": 3095
+    },
+    {
+      "slot": 32,
+      "bandwidth_kbps": 91.3513750343159,
+      "loss_rate": 0.024474463975616957,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3045,
+      "effective_capacity_bits": 2970
+    },
+    {
+      "slot": 33,
+      "bandwidth_kbps": 91.29528050528913,
+      "loss_rate": 0.03033617314129525,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3043,
+      "effective_capacity_bits": 2950
+    },
+    {
+      "slot": 34,
+      "bandwidth_kbps": 213.1769973234675,
+      "loss_rate": 0.016969826465696093,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7106,
+      "effective_capacity_bits": 6985
+    },
+    {
+      "slot": 35,
+      "bandwidth_kbps": 189.66817121012693,
+      "loss_rate": 0.017417904255653087,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6322,
+      "effective_capacity_bits": 6211
+    },
+    {
+      "slot": 36,
+      "bandwidth_kbps": 204.57960821882318,
+      "loss_rate": 0.02091715127359961,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6819,
+      "effective_capacity_bits": 6676
+    },
+    {
+      "slot": 37,
+      "bandwidth_kbps": 209.4677308860006,
+      "loss_rate": 0.012415146385129791,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6982,
+      "effective_capacity_bits": 6895
+    },
+    {
+      "slot": 38,
+      "bandwidth_kbps": 197.592649607974,
+      "loss_rate": 0.017023832590610258,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6586,
+      "effective_capacity_bits": 6473
+    },
+    {
+      "slot": 39,
+      "bandwidth_kbps": 192.27133146831005,
+      "loss_rate": 0.014540343435597191,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6409,
+      "effective_capacity_bits": 6315
+    },
+    {
+      "slot": 40,
+      "bandwidth_kbps": 207.2255188381862,
+      "loss_rate": 0.010405149533780782,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 6908,
+      "effective_capacity_bits": 6836
+    },
+    {
+      "slot": 41,
+      "bandwidth_kbps": 213.454845271835,
+      "loss_rate": 0.01821879586167025,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7115,
+      "effective_capacity_bits": 6985
+    },
+    {
+      "slot": 42,
+      "bandwidth_kbps": 224.0545017579065,
+      "loss_rate": 0.011971378004362971,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7468,
+      "effective_capacity_bits": 7378
+    },
+    {
+      "slot": 43,
+      "bandwidth_kbps": 237.6764928870196,
+      "loss_rate": 0.019457063689515594,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7923,
+      "effective_capacity_bits": 7768
+    },
+    {
+      "slot": 44,
+      "bandwidth_kbps": 226.49903223848085,
+      "loss_rate": 0.01439024881139197,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7550,
+      "effective_capacity_bits": 7441
+    },
+    {
+      "slot": 45,
+      "bandwidth_kbps": 238.13928851807518,
+      "loss_rate": 0.019600605917298147,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7938,
+      "effective_capacity_bits": 7782
+    },
+    {
+      "slot": 46,
+      "bandwidth_kbps": 239.21774319831374,
+      "loss_rate": 0.01936781363638218,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7974,
+      "effective_capacity_bits": 7819
+    },
+    {
+      "slot": 47,
+      "bandwidth_kbps": 210.02923016267565,
+      "loss_rate": 0.013983558206540382,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 7001,
+      "effective_capacity_bits": 6903
+    },
+    {
+      "slot": 48,
+      "bandwidth_kbps": 2.7706107474158257,
+      "loss_rate": 0.054610313926378606,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 92,
+      "effective_capacity_bits": 86
+    },
+    {
+      "slot": 49,
+      "bandwidth_kbps": 2.961164309946212,
+      "loss_rate": 0.04581105086949331,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 99,
+      "effective_capacity_bits": 94
+    },
+    {
+      "slot": 50,
+      "bandwidth_kbps": 2.5451599012815587,
+      "loss_rate": 0.046783482401834435,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 85,
+      "effective_capacity_bits": 81
+    },
+    {
+      "slot": 51,
+      "bandwidth_kbps": 2.5966330170248497,
+      "loss_rate": 0.04981955276409628,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 87,
+      "effective_capacity_bits": 82
+    },
+    {
+      "slot": 52,
+      "bandwidth_kbps": 2.8511845968742353,
+      "loss_rate": 0.04715295943158246,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 95,
+      "effective_capacity_bits": 90
+    },
+    {
+      "slot": 53,
+      "bandwidth_kbps": 2.695693742248808,
+      "loss_rate": 0.04902735801350394,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 90,
+      "effective_capacity_bits": 85
+    },
+    {
+      "slot": 54,
+      "bandwidth_kbps": 3.01066582173569,
+      "loss_rate": 0.050796094684476704,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 100,
+      "effective_capacity_bits": 94
+    },
+    {
+      "slot": 55,
+      "bandwidth_kbps": 3.4146834019560686,
+      "loss_rate": 0.05228592388563174,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 114,
+      "effective_capacity_bits": 108
+    },
+    {
+      "slot": 56,
+      "bandwidth_kbps": 3.285639890606274,
+      "loss_rate": 0.051411112992909534,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 110,
+      "effective_capacity_bits": 104
+    },
+    {
+      "slot": 57,
+      "bandwidth_kbps": 3.383455374841989,
+      "loss_rate": 0.04464791471868548,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 113,
+      "effective_capacity_bits": 107
+    },
+    {
+      "slot": 58,
+      "bandwidth_kbps": 3.4465145167360545,
+      "loss_rate": 0.053359633888472875,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 115,
+      "effective_capacity_bits": 108
+    },
+    {
+      "slot": 59,
+      "bandwidth_kbps": 3.335120836419079,
+      "loss_rate": 0.053574477454358796,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 111,
+      "effective_capacity_bits": 105
+    },
+    {
+      "slot": 60,
+      "bandwidth_kbps": 475.29944143729875,
+      "loss_rate": 0.008787745987843276,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15843,
+      "effective_capacity_bits": 15703
+    },
+    {
+      "slot": 61,
+      "bandwidth_kbps": 431.05134826583264,
+      "loss_rate": 0.011611474788228509,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14368,
+      "effective_capacity_bits": 14201
+    },
+    {
+      "slot": 62,
+      "bandwidth_kbps": 409.8273287610058,
+      "loss_rate": 0.004808171390116299,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13661,
+      "effective_capacity_bits": 13595
+    },
+    {
+      "slot": 63,
+      "bandwidth_kbps": 410.9537799312782,
+      "loss_rate": 0.005947638253265169,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13698,
+      "effective_capacity_bits": 13616
+    },
+    {
+      "slot": 64,
+      "bandwidth_kbps": 421.03397722594093,
+      "loss_rate": 0.0046309072466832035,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14034,
+      "effective_capacity_bits": 13969
+    },
+    {
+      "slot": 65,
+      "bandwidth_kbps": 405.05651163998414,
+      "loss_rate": 0.005815179187353135,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13502,
+      "effective_capacity_bits": 13423
+    },
+    {
+      "slot": 66,
+      "bandwidth_kbps": 430.88062924188534,
+      "loss_rate": 0.008363319064414853,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14363,
+      "effective_capacity_bits": 14242
+    },
+    {
+      "slot": 67,
+      "bandwidth_kbps": 447.1107438082255,
+      "loss_rate": 0.014491988528485836,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14904,
+      "effective_capacity_bits": 14688
+    },
+    {
+      "slot": 68,
+      "bandwidth_kbps": 513.6065252363701,
+      "loss_rate": 0.005782605823970697,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 17120,
+      "effective_capacity_bits": 17021
+    },
+    {
+      "slot": 69,
+      "bandwidth_kbps": 501.72497946702975,
+      "loss_rate": 0.008168674552644419,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 16724,
+      "effective_capacity_bits": 16587
+    },
+    {
+      "slot": 70,
+      "bandwidth_kbps": 517.3873647360056,
+      "loss_rate": 0.005474106769146339,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 17246,
+      "effective_capacity_bits": 17151
+    },
+    {
+      "slot": 71,
+      "bandwidth_kbps": 551.3156724512174,
+      "loss_rate": 0.015917232660456568,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 18377,
+      "effective_capacity_bits": 18084
+    },
+    {
+      "slot": 72,
+      "bandwidth_kbps": 508.94883321216423,
+      "loss_rate": 0.009806015876995235,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 16965,
+      "effective_capacity_bits": 16798
+    },
+    {
+      "slot": 73,
+      "bandwidth_kbps": 459.9559185972022,
+      "loss_rate": 0.005226251400978021,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15332,
+      "effective_capacity_bits": 15251
+    },
+    {
+      "slot": 74,
+      "bandwidth_kbps": 457.32323402295253,
+      "loss_rate": 0.007177082700606161,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15244,
+      "effective_capacity_bits": 15134
+    },
+    {
+      "slot": 75,
+      "bandwidth_kbps": 474.61056327702545,
+      "loss_rate": 0.005937263326317178,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15820,
+      "effective_capacity_bits": 15726
+    },
+    {
+      "slot": 76,
+      "bandwidth_kbps": 399.3197847076276,
+      "loss_rate": 0.015411826874496425,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13311,
+      "effective_capacity_bits": 13105
+    },
+    {
+      "slot": 77,
+      "bandwidth_kbps": 434.2614583999854,
+      "loss_rate": 0.005759230466789089,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14475,
+      "effective_capacity_bits": 14391
+    },
+    {
+      "slot": 78,
+      "bandwidth_kbps": 82.86409437549025,
+      "loss_rate": 0.02432450989706602,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2762,
+      "effective_capacity_bits": 2694
+    },
+    {
+      "slot": 79,
+      "bandwidth_kbps": 85.55481908716628,
+      "loss_rate": 0.03574201491262767,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2852,
+      "effective_capacity_bits": 2750
+    },
+    {
+      "slot": 80,
+      "bandwidth_kbps": 94.34133351821856,
+      "loss_rate": 0.032354361430893624,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3145,
+      "effective_capacity_bits": 3043
+    },
+    {
+      "slot": 81,
+      "bandwidth_kbps": 89.82204892005484,
+      "loss_rate": 0.028400397501134145,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2994,
+      "effective_capacity_bits": 2908
+    },
+    {
+      "slot": 82,
+      "bandwidth_kbps": 91.91252603863299,
+      "loss_rate": 0.03326325490082437,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3064,
+      "effective_capacity_bits": 2962
+    },
+    {
+      "slot": 83,
+      "bandwidth_kbps": 99.16705276009463,
+      "loss_rate": 0.033348658696058124,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3306,
+      "effective_capacity_bits": 3195
+    },
+    {
+      "slot": 84,
+      "bandwidth_kbps": 96.34928183799876,
+      "loss_rate": 0.02667650007723822,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3212,
+      "effective_capacity_bits": 3126
+    },
+    {
+      "slot": 85,
+      "bandwidth_kbps": 101.48339671349937,
+      "loss_rate": 0.03581911260709069,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3383,
+      "effective_capacity_bits": 3261
+    },
+    {
+      "slot": 86,
+      "bandwidth_kbps": 98.75348728134757,
+      "loss_rate": 0.03367294301742801,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3292,
+      "effective_capacity_bits": 3181
+    },
+    {
+      "slot": 87,
+      "bandwidth_kbps": 94.14051451761924,
+      "loss_rate": 0.03287847624450857,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3138,
+      "effective_capacity_bits": 3034
+    },
+    {
+      "slot": 88,
+      "bandwidth_kbps": 81.59863090662725,
+      "loss_rate": 0.030211664690922065,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2720,
+      "effective_capacity_bits": 2637
+    },
+    {
+      "slot": 89,
+      "bandwidth_kbps": 80.39934763541952,
+      "loss_rate": 0.024347761808896383,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2680,
+      "effective_capacity_bits": 2614
+    },
+    {
+      "slot": 90,
+      "bandwidth_kbps": 74.25818189941282,
+      "loss_rate": 0.027353022468588357,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2475,
+      "effective_capacity_bits": 2407
+    },
+    {
+      "slot": 91,
+      "bandwidth_kbps": 78.10429059319125,
+      "loss_rate": 0.03231026330040148,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 2603,
+      "effective_capacity_bits": 2518
+    },
+    {
+      "slot": 92,
+      "bandwidth_kbps": 90.48997456059867,
+      "loss_rate": 0.02936673213320068,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3016,
+      "effective_capacity_bits": 2927
+    },
+    {
+      "slot": 93,
+      "bandwidth_kbps": 93.87260338045543,
+      "loss_rate": 0.03585645669843432,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3129,
+      "effective_capacity_bits": 3016
+    },
+    {
+      "slot": 94,
+      "bandwidth_kbps": 742.8604551793029,
+      "loss_rate": 0.006375630624342393,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 24762,
+      "effective_capacity_bits": 24604
+    },
+    {
+      "slot": 95,
+      "bandwidth_kbps": 691.6907987366612,
+      "loss_rate": 0.004722149920768736,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 23056,
+      "effective_capacity_bits": 22947
+    },
+    {
+      "slot": 96,
+      "bandwidth_kbps": 708.723314493344,
+      "loss_rate": 0.004452480359314677,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 23624,
+      "effective_capacity_bits": 23518
+    },
+    {
+      "slot": 97,
+      "bandwidth_kbps": 761.4521181888318,
+      "loss_rate": 0.01280370005460937,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 25382,
+      "effective_capacity_bits": 25057
+    },
+    {
+      "slot": 98,
+      "bandwidth_kbps": 776.4884189901092,
+      "loss_rate": 0.007753681115138459,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 25883,
+      "effective_capacity_bits": 25682
+    },
+    {
+      "slot": 99,
+      "bandwidth_kbps": 734.696063196189,
+      "loss_rate": 0.011595724938195922,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 24490,
+      "effective_capacity_bits": 24206
+    },
+    {
+      "slot": 100,
+      "bandwidth_kbps": 643.2268716724766,
+      "loss_rate": 0.00992702780245873,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 21441,
+      "effective_capacity_bits": 21228
+    },
+    {
+      "slot": 101,
+      "bandwidth_kbps": 701.5153477722966,
+      "loss_rate": 0.011387634609177081,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 23384,
+      "effective_capacity_bits": 23117
+    },
+    {
+      "slot": 102,
+      "bandwidth_kbps": 657.6781933369049,
+      "loss_rate": 0.007736392935128003,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 21923,
+      "effective_capacity_bits": 21753
+    },
+    {
+      "slot": 103,
+      "bandwidth_kbps": 579.7601730126883,
+      "loss_rate": 0.011469625172243317,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 19325,
+      "effective_capacity_bits": 19103
+    },
+    {
+      "slot": 104,
+      "bandwidth_kbps": 594.9421355869385,
+      "loss_rate": 0.011609882826760292,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 19831,
+      "effective_capacity_bits": 19600
+    },
+    {
+      "slot": 105,
+      "bandwidth_kbps": 677.4020579430374,
+      "loss_rate": 0.006750061940833377,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 22580,
+      "effective_capacity_bits": 22427
+    },
+    {
+      "slot": 106,
+      "bandwidth_kbps": 639.9701412878422,
+      "loss_rate": 0.013361564077578715,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 21332,
+      "effective_capacity_bits": 21046
+    },
+    {
+      "slot": 107,
+      "bandwidth_kbps": 706.1251206926371,
+      "loss_rate": 0.004040043919662745,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 23538,
+      "effective_capacity_bits": 23442
+    },
+    {
+      "slot": 108,
+      "bandwidth_kbps": 414.87047432167986,
+      "loss_rate": 0.005813808404577878,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13829,
+      "effective_capacity_bits": 13748
+    },
+    {
+      "slot": 109,
+      "bandwidth_kbps": 481.7205730896248,
+      "loss_rate": 0.013678023784386354,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 16057,
+      "effective_capacity_bits": 15837
+    },
+    {
+      "slot": 110,
+      "bandwidth_kbps": 437.83350672890833,
+      "loss_rate": 0.013918125742304645,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14594,
+      "effective_capacity_bits": 14390
+    },
+    {
+      "slot": 111,
+      "bandwidth_kbps": 491.95941781021276,
+      "loss_rate": 0.01188721951283224,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 16399,
+      "effective_capacity_bits": 16204
+    },
+    {
+      "slot": 112,
+      "bandwidth_kbps": 439.0967479232872,
+      "loss_rate": 0.01058392052784135,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14637,
+      "effective_capacity_bits": 14482
+    },
+    {
+      "slot": 113,
+      "bandwidth_kbps": 407.4965519778041,
+      "loss_rate": 0.004170915257873267,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13583,
+      "effective_capacity_bits": 13526
+    },
+    {
+      "slot": 114,
+      "bandwidth_kbps": 444.41711732381935,
+      "loss_rate": 0.011796096036085967,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14814,
+      "effective_capacity_bits": 14639
+    },
+    {
+      "slot": 115,
+      "bandwidth_kbps": 396.6056115334983,
+      "loss_rate": 0.015203497660689121,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13220,
+      "effective_capacity_bits": 13019
+    },
+    {
+      "slot": 116,
+      "bandwidth_kbps": 377.8781857517733,
+      "loss_rate": 0.014460915135872849,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12596,
+      "effective_capacity_bits": 12413
+    },
+    {
+      "slot": 117,
+      "bandwidth_kbps": 399.9207220265457,
+      "loss_rate": 0.006532508047937786,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13331,
+      "effective_capacity_bits": 13243
+    },
+    {
+      "slot": 118,
+      "bandwidth_kbps": 366.1108798090149,
+      "loss_rate": 0.007515599832042627,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12204,
+      "effective_capacity_bits": 12112
+    },
+    {
+      "slot": 119,
+      "bandwidth_kbps": 378.2063317426246,
+      "loss_rate": 0.01103724601799154,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 12607,
+      "effective_capacity_bits": 12467
+    },
+    {
+      "slot": 120,
+      "bandwidth_kbps": 397.6082438160294,
+      "loss_rate": 0.009028150633054524,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13254,
+      "effective_capacity_bits": 13134
+    },
+    {
+      "slot": 121,
+      "bandwidth_kbps": 408.4730482771972,
+      "loss_rate": 0.014920204675786678,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 13616,
+      "effective_capacity_bits": 13412
+    },
+    {
+      "slot": 122,
+      "bandwidth_kbps": 440.04848024399075,
+      "loss_rate": 0.009497931837660803,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 14668,
+      "effective_capacity_bits": 14528
+    },
+    {
+      "slot": 123,
+      "bandwidth_kbps": 465.60590798123053,
+      "loss_rate": 0.014851561294504479,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 15520,
+      "effective_capacity_bits": 15289
+    },
+    {
+      "slot": 124,
+      "bandwidth_kbps": 92.31124945540971,
+      "loss_rate": 0.03001265301211197,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3077,
+      "effective_capacity_bits": 2984
+    },
+    {
+      "slot": 125,
+      "bandwidth_kbps": 91.8879747479907,
+      "loss_rate": 0.02538189954923121,
+      "duration_ms": 33.333333333333336,
+      "raw_capacity_bits": 3063,
+      "effective_capacity_bits": 2985
+    }
+  ],
+  "layer_specs": [
+    {
+      "level": 0,
+      "bits": 144,
+      "quality_psnr": 13.06,
+      "label": "L0 4x4"
+    },
+    {
+      "level": 1,
+      "bits": 576,
+      "quality_psnr": 15.9,
+      "label": "L1 8x8"
+    },
+    {
+      "level": 2,
+      "bits": 2304,
+      "quality_psnr": 19.5,
+      "label": "L2 16x16"
+    },
+    {
+      "level": 3,
+      "bits": 9216,
+      "quality_psnr": 23.7,
+      "label": "L3 32x32"
+    }
+  ],
+  "results": [
+    {
+      "summary": {
+        "policy": "greedy",
+        "frames": 120,
+        "stall_rate": 0.1,
+        "decoded_psnr_mean": 21.46666666666667,
+        "render_psnr_mean": 19.32,
+        "psnr_fluctuation": 0.710924369747899,
+        "psnr_std": 7.045466627555625,
+        "average_layer": 2.1,
+        "sent_bitrate_kbps": 251.1665,
+        "network_utilization": 0.8179287717627136,
+        "layer_counts": {
+          "-1": 12,
+          "0": 0,
+          "1": 18,
+          "2": 24,
+          "3": 66
+        }
+      },
+      "frames": [
+        {
+          "frame_id": 0,
+          "deadline_ms": 133.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 1,
+          "deadline_ms": 166.33333333333334,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 2,
+          "deadline_ms": 199.66666666666669,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 3,
+          "deadline_ms": 233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 4,
+          "deadline_ms": 266.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 5,
+          "deadline_ms": 299.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 6,
+          "deadline_ms": 333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 7,
+          "deadline_ms": 366.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 8,
+          "deadline_ms": 399.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 9,
+          "deadline_ms": 433.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 10,
+          "deadline_ms": 466.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 11,
+          "deadline_ms": 499.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 12,
+          "deadline_ms": 533.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 13,
+          "deadline_ms": 566.3333333333334,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 14,
+          "deadline_ms": 599.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 15,
+          "deadline_ms": 633.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 16,
+          "deadline_ms": 666.3333333333334,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 11792,
+          "stalled": false
+        },
+        {
+          "frame_id": 17,
+          "deadline_ms": 699.6666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2755,
+          "stalled": false
+        },
+        {
+          "frame_id": 18,
+          "deadline_ms": 733.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2767,
+          "stalled": false
+        },
+        {
+          "frame_id": 19,
+          "deadline_ms": 766.3333333333334,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2428,
+          "stalled": false
+        },
+        {
+          "frame_id": 20,
+          "deadline_ms": 799.6666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2490,
+          "stalled": false
+        },
+        {
+          "frame_id": 21,
+          "deadline_ms": 833.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2605,
+          "stalled": false
+        },
+        {
+          "frame_id": 22,
+          "deadline_ms": 866.3333333333334,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2786,
+          "stalled": false
+        },
+        {
+          "frame_id": 23,
+          "deadline_ms": 899.6666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2624,
+          "stalled": false
+        },
+        {
+          "frame_id": 24,
+          "deadline_ms": 933.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2643,
+          "stalled": false
+        },
+        {
+          "frame_id": 25,
+          "deadline_ms": 966.3333333333334,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2707,
+          "stalled": false
+        },
+        {
+          "frame_id": 26,
+          "deadline_ms": 999.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3118,
+          "stalled": false
+        },
+        {
+          "frame_id": 27,
+          "deadline_ms": 1033.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3212,
+          "stalled": false
+        },
+        {
+          "frame_id": 28,
+          "deadline_ms": 1066.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3095,
+          "stalled": false
+        },
+        {
+          "frame_id": 29,
+          "deadline_ms": 1099.6666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2970,
+          "stalled": false
+        },
+        {
+          "frame_id": 30,
+          "deadline_ms": 1133.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2950,
+          "stalled": false
+        },
+        {
+          "frame_id": 31,
+          "deadline_ms": 1166.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6985,
+          "stalled": false
+        },
+        {
+          "frame_id": 32,
+          "deadline_ms": 1199.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6211,
+          "stalled": false
+        },
+        {
+          "frame_id": 33,
+          "deadline_ms": 1233.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6676,
+          "stalled": false
+        },
+        {
+          "frame_id": 34,
+          "deadline_ms": 1266.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6895,
+          "stalled": false
+        },
+        {
+          "frame_id": 35,
+          "deadline_ms": 1299.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6473,
+          "stalled": false
+        },
+        {
+          "frame_id": 36,
+          "deadline_ms": 1333.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6315,
+          "stalled": false
+        },
+        {
+          "frame_id": 37,
+          "deadline_ms": 1366.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6836,
+          "stalled": false
+        },
+        {
+          "frame_id": 38,
+          "deadline_ms": 1399.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6985,
+          "stalled": false
+        },
+        {
+          "frame_id": 39,
+          "deadline_ms": 1433.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7378,
+          "stalled": false
+        },
+        {
+          "frame_id": 40,
+          "deadline_ms": 1466.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7768,
+          "stalled": false
+        },
+        {
+          "frame_id": 41,
+          "deadline_ms": 1499.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7441,
+          "stalled": false
+        },
+        {
+          "frame_id": 42,
+          "deadline_ms": 1533.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7782,
+          "stalled": false
+        },
+        {
+          "frame_id": 43,
+          "deadline_ms": 1566.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7819,
+          "stalled": false
+        },
+        {
+          "frame_id": 44,
+          "deadline_ms": 1599.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6903,
+          "stalled": false
+        },
+        {
+          "frame_id": 45,
+          "deadline_ms": 1633.0,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 86,
+          "stalled": true
+        },
+        {
+          "frame_id": 46,
+          "deadline_ms": 1666.3333333333335,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 94,
+          "stalled": true
+        },
+        {
+          "frame_id": 47,
+          "deadline_ms": 1699.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 81,
+          "stalled": true
+        },
+        {
+          "frame_id": 48,
+          "deadline_ms": 1733.0,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 82,
+          "stalled": true
+        },
+        {
+          "frame_id": 49,
+          "deadline_ms": 1766.3333333333335,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 90,
+          "stalled": true
+        },
+        {
+          "frame_id": 50,
+          "deadline_ms": 1799.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 85,
+          "stalled": true
+        },
+        {
+          "frame_id": 51,
+          "deadline_ms": 1833.0000000000002,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 94,
+          "stalled": true
+        },
+        {
+          "frame_id": 52,
+          "deadline_ms": 1866.3333333333335,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 108,
+          "stalled": true
+        },
+        {
+          "frame_id": 53,
+          "deadline_ms": 1899.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 104,
+          "stalled": true
+        },
+        {
+          "frame_id": 54,
+          "deadline_ms": 1933.0000000000002,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 107,
+          "stalled": true
+        },
+        {
+          "frame_id": 55,
+          "deadline_ms": 1966.3333333333335,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 108,
+          "stalled": true
+        },
+        {
+          "frame_id": 56,
+          "deadline_ms": 1999.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 105,
+          "stalled": true
+        },
+        {
+          "frame_id": 57,
+          "deadline_ms": 2033.0000000000002,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 58,
+          "deadline_ms": 2066.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 59,
+          "deadline_ms": 2099.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 60,
+          "deadline_ms": 2133.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 61,
+          "deadline_ms": 2166.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 62,
+          "deadline_ms": 2199.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 63,
+          "deadline_ms": 2233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 64,
+          "deadline_ms": 2266.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 65,
+          "deadline_ms": 2299.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 66,
+          "deadline_ms": 2333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 67,
+          "deadline_ms": 2366.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 68,
+          "deadline_ms": 2399.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 69,
+          "deadline_ms": 2433.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 70,
+          "deadline_ms": 2466.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 71,
+          "deadline_ms": 2499.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 72,
+          "deadline_ms": 2533.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 73,
+          "deadline_ms": 2566.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 74,
+          "deadline_ms": 2599.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 75,
+          "deadline_ms": 2633.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 76,
+          "deadline_ms": 2666.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 77,
+          "deadline_ms": 2699.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 78,
+          "deadline_ms": 2733.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 11395,
+          "stalled": false
+        },
+        {
+          "frame_id": 79,
+          "deadline_ms": 2766.3333333333335,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2962,
+          "stalled": false
+        },
+        {
+          "frame_id": 80,
+          "deadline_ms": 2799.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3195,
+          "stalled": false
+        },
+        {
+          "frame_id": 81,
+          "deadline_ms": 2833.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3126,
+          "stalled": false
+        },
+        {
+          "frame_id": 82,
+          "deadline_ms": 2866.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3261,
+          "stalled": false
+        },
+        {
+          "frame_id": 83,
+          "deadline_ms": 2899.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3181,
+          "stalled": false
+        },
+        {
+          "frame_id": 84,
+          "deadline_ms": 2933.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3034,
+          "stalled": false
+        },
+        {
+          "frame_id": 85,
+          "deadline_ms": 2966.3333333333335,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2637,
+          "stalled": false
+        },
+        {
+          "frame_id": 86,
+          "deadline_ms": 2999.666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2614,
+          "stalled": false
+        },
+        {
+          "frame_id": 87,
+          "deadline_ms": 3033.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2407,
+          "stalled": false
+        },
+        {
+          "frame_id": 88,
+          "deadline_ms": 3066.3333333333335,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2518,
+          "stalled": false
+        },
+        {
+          "frame_id": 89,
+          "deadline_ms": 3099.666666666667,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 2927,
+          "stalled": false
+        },
+        {
+          "frame_id": 90,
+          "deadline_ms": 3133.0,
+          "max_layer": 1,
+          "quality_psnr": 15.9,
+          "delivered_bits": 3016,
+          "stalled": false
+        },
+        {
+          "frame_id": 91,
+          "deadline_ms": 3166.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 92,
+          "deadline_ms": 3199.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 93,
+          "deadline_ms": 3233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 94,
+          "deadline_ms": 3266.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 95,
+          "deadline_ms": 3299.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 96,
+          "deadline_ms": 3333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 97,
+          "deadline_ms": 3366.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 98,
+          "deadline_ms": 3399.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 99,
+          "deadline_ms": 3433.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 100,
+          "deadline_ms": 3466.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 101,
+          "deadline_ms": 3499.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 102,
+          "deadline_ms": 3533.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 103,
+          "deadline_ms": 3566.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 104,
+          "deadline_ms": 3599.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 105,
+          "deadline_ms": 3633.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 106,
+          "deadline_ms": 3666.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 107,
+          "deadline_ms": 3699.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 108,
+          "deadline_ms": 3733.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 109,
+          "deadline_ms": 3766.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 110,
+          "deadline_ms": 3799.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 111,
+          "deadline_ms": 3833.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 112,
+          "deadline_ms": 3866.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 113,
+          "deadline_ms": 3899.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 114,
+          "deadline_ms": 3933.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 115,
+          "deadline_ms": 3966.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 116,
+          "deadline_ms": 3999.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 117,
+          "deadline_ms": 4033.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 118,
+          "deadline_ms": 4066.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 119,
+          "deadline_ms": 4099.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        }
+      ]
+    },
+    {
+      "summary": {
+        "policy": "sliding_window",
+        "frames": 120,
+        "stall_rate": 0.03333333333333333,
+        "decoded_psnr_mean": 21.575862068965495,
+        "render_psnr_mean": 20.856666666666644,
+        "psnr_fluctuation": 0.4689075630252102,
+        "psnr_std": 4.702926984572708,
+        "average_layer": 2.3583333333333334,
+        "sent_bitrate_kbps": 248.024,
+        "network_utilization": 0.8076951571474512,
+        "layer_counts": {
+          "-1": 4,
+          "0": 5,
+          "1": 0,
+          "2": 46,
+          "3": 65
+        }
+      },
+      "frames": [
+        {
+          "frame_id": 0,
+          "deadline_ms": 133.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 1,
+          "deadline_ms": 166.33333333333334,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 2,
+          "deadline_ms": 199.66666666666669,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 3,
+          "deadline_ms": 233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 4,
+          "deadline_ms": 266.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 5,
+          "deadline_ms": 299.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 6,
+          "deadline_ms": 333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 7,
+          "deadline_ms": 366.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 8,
+          "deadline_ms": 399.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 9,
+          "deadline_ms": 433.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 10,
+          "deadline_ms": 466.33333333333337,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 11,
+          "deadline_ms": 499.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 12,
+          "deadline_ms": 533.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 13,
+          "deadline_ms": 566.3333333333334,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 14,
+          "deadline_ms": 599.6666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 15,
+          "deadline_ms": 633.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 16,
+          "deadline_ms": 666.3333333333334,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3061,
+          "stalled": false
+        },
+        {
+          "frame_id": 17,
+          "deadline_ms": 699.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 18,
+          "deadline_ms": 733.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 19,
+          "deadline_ms": 766.3333333333334,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 20,
+          "deadline_ms": 799.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 21,
+          "deadline_ms": 833.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 22,
+          "deadline_ms": 866.3333333333334,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 23,
+          "deadline_ms": 899.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 24,
+          "deadline_ms": 933.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 25,
+          "deadline_ms": 966.3333333333334,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 26,
+          "deadline_ms": 999.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 27,
+          "deadline_ms": 1033.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 28,
+          "deadline_ms": 1066.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 29,
+          "deadline_ms": 1099.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 30,
+          "deadline_ms": 1133.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 31,
+          "deadline_ms": 1166.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3458,
+          "stalled": false
+        },
+        {
+          "frame_id": 32,
+          "deadline_ms": 1199.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6211,
+          "stalled": false
+        },
+        {
+          "frame_id": 33,
+          "deadline_ms": 1233.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6676,
+          "stalled": false
+        },
+        {
+          "frame_id": 34,
+          "deadline_ms": 1266.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6895,
+          "stalled": false
+        },
+        {
+          "frame_id": 35,
+          "deadline_ms": 1299.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6473,
+          "stalled": false
+        },
+        {
+          "frame_id": 36,
+          "deadline_ms": 1333.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6315,
+          "stalled": false
+        },
+        {
+          "frame_id": 37,
+          "deadline_ms": 1366.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6836,
+          "stalled": false
+        },
+        {
+          "frame_id": 38,
+          "deadline_ms": 1399.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6985,
+          "stalled": false
+        },
+        {
+          "frame_id": 39,
+          "deadline_ms": 1433.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7378,
+          "stalled": false
+        },
+        {
+          "frame_id": 40,
+          "deadline_ms": 1466.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7768,
+          "stalled": false
+        },
+        {
+          "frame_id": 41,
+          "deadline_ms": 1499.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7441,
+          "stalled": false
+        },
+        {
+          "frame_id": 42,
+          "deadline_ms": 1533.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7782,
+          "stalled": false
+        },
+        {
+          "frame_id": 43,
+          "deadline_ms": 1566.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 7819,
+          "stalled": false
+        },
+        {
+          "frame_id": 44,
+          "deadline_ms": 1599.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6903,
+          "stalled": false
+        },
+        {
+          "frame_id": 45,
+          "deadline_ms": 1633.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 46,
+          "deadline_ms": 1666.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 47,
+          "deadline_ms": 1699.6666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 48,
+          "deadline_ms": 1733.0,
+          "max_layer": 0,
+          "quality_psnr": 13.06,
+          "delivered_bits": 144,
+          "stalled": false
+        },
+        {
+          "frame_id": 49,
+          "deadline_ms": 1766.3333333333335,
+          "max_layer": 0,
+          "quality_psnr": 13.06,
+          "delivered_bits": 144,
+          "stalled": false
+        },
+        {
+          "frame_id": 50,
+          "deadline_ms": 1799.6666666666667,
+          "max_layer": 0,
+          "quality_psnr": 13.06,
+          "delivered_bits": 144,
+          "stalled": false
+        },
+        {
+          "frame_id": 51,
+          "deadline_ms": 1833.0000000000002,
+          "max_layer": 0,
+          "quality_psnr": 13.06,
+          "delivered_bits": 144,
+          "stalled": false
+        },
+        {
+          "frame_id": 52,
+          "deadline_ms": 1866.3333333333335,
+          "max_layer": 0,
+          "quality_psnr": 13.06,
+          "delivered_bits": 144,
+          "stalled": false
+        },
+        {
+          "frame_id": 53,
+          "deadline_ms": 1899.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 104,
+          "stalled": true
+        },
+        {
+          "frame_id": 54,
+          "deadline_ms": 1933.0000000000002,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 107,
+          "stalled": true
+        },
+        {
+          "frame_id": 55,
+          "deadline_ms": 1966.3333333333335,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 108,
+          "stalled": true
+        },
+        {
+          "frame_id": 56,
+          "deadline_ms": 1999.6666666666667,
+          "max_layer": -1,
+          "quality_psnr": 0.0,
+          "delivered_bits": 105,
+          "stalled": true
+        },
+        {
+          "frame_id": 57,
+          "deadline_ms": 2033.0000000000002,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 6631,
+          "stalled": false
+        },
+        {
+          "frame_id": 58,
+          "deadline_ms": 2066.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 59,
+          "deadline_ms": 2099.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 60,
+          "deadline_ms": 2133.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 61,
+          "deadline_ms": 2166.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 62,
+          "deadline_ms": 2199.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 63,
+          "deadline_ms": 2233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 64,
+          "deadline_ms": 2266.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 65,
+          "deadline_ms": 2299.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 66,
+          "deadline_ms": 2333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 67,
+          "deadline_ms": 2366.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 68,
+          "deadline_ms": 2399.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 69,
+          "deadline_ms": 2433.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 70,
+          "deadline_ms": 2466.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 71,
+          "deadline_ms": 2499.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 72,
+          "deadline_ms": 2533.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 73,
+          "deadline_ms": 2566.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 74,
+          "deadline_ms": 2599.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 75,
+          "deadline_ms": 2633.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 76,
+          "deadline_ms": 2666.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 77,
+          "deadline_ms": 2699.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 78,
+          "deadline_ms": 2733.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 79,
+          "deadline_ms": 2766.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 80,
+          "deadline_ms": 2799.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 81,
+          "deadline_ms": 2833.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 82,
+          "deadline_ms": 2866.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 83,
+          "deadline_ms": 2899.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 84,
+          "deadline_ms": 2933.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 85,
+          "deadline_ms": 2966.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 86,
+          "deadline_ms": 2999.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 87,
+          "deadline_ms": 3033.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 88,
+          "deadline_ms": 3066.3333333333335,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 89,
+          "deadline_ms": 3099.666666666667,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 90,
+          "deadline_ms": 3133.0,
+          "max_layer": 2,
+          "quality_psnr": 19.5,
+          "delivered_bits": 3024,
+          "stalled": false
+        },
+        {
+          "frame_id": 91,
+          "deadline_ms": 3166.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 92,
+          "deadline_ms": 3199.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 93,
+          "deadline_ms": 3233.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 94,
+          "deadline_ms": 3266.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 95,
+          "deadline_ms": 3299.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 96,
+          "deadline_ms": 3333.0,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 97,
+          "deadline_ms": 3366.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 98,
+          "deadline_ms": 3399.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 99,
+          "deadline_ms": 3433.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 100,
+          "deadline_ms": 3466.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 101,
+          "deadline_ms": 3499.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 102,
+          "deadline_ms": 3533.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 103,
+          "deadline_ms": 3566.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 104,
+          "deadline_ms": 3599.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 105,
+          "deadline_ms": 3633.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 106,
+          "deadline_ms": 3666.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 107,
+          "deadline_ms": 3699.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 108,
+          "deadline_ms": 3733.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 109,
+          "deadline_ms": 3766.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 110,
+          "deadline_ms": 3799.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 111,
+          "deadline_ms": 3833.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 112,
+          "deadline_ms": 3866.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 113,
+          "deadline_ms": 3899.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 114,
+          "deadline_ms": 3933.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 115,
+          "deadline_ms": 3966.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 116,
+          "deadline_ms": 3999.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 117,
+          "deadline_ms": 4033.0000000000005,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 118,
+          "deadline_ms": 4066.3333333333335,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        },
+        {
+          "frame_id": 119,
+          "deadline_ms": 4099.666666666667,
+          "max_layer": 3,
+          "quality_psnr": 23.7,
+          "delivered_bits": 12240,
+          "stalled": false
+        }
+      ]
+    }
+  ]
+}
