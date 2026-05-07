@@ -14,6 +14,7 @@ dependencies:
       - compressai==1.2.8
       - numpy==1.26.4
       - opencv-python==4.10.0.84
+      - av==16.1.0
       - pandas==2.3.3
       - matplotlib==3.10.8
       - scikit-image==0.25.2
@@ -24,3 +25,5 @@ dependencies:
       - jupyter==1.1.1
       - pyyaml==6.0.3
       - tqdm==4.67.1
+      - aiortc==1.14.0
+      - websockets==16.0

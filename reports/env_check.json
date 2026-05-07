@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T16:32:02.333338+00:00",
+  "generated_at": "2026-05-07T19:58:52.829083+00:00",
   "platform": {
     "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
     "executable": "/home/cells/miniconda3/envs/alg/bin/python",
@@ -37,6 +37,10 @@
       "ok": true,
       "version": "4.10.0"
     },
+    "av": {
+      "ok": true,
+      "version": "16.1.0"
+    },
     "numpy": {
       "ok": true,
       "version": "1.26.4"
@@ -72,6 +76,14 @@
     "tqdm": {
       "ok": true,
       "version": "4.67.1"
+    },
+    "aiortc": {
+      "ok": true,
+      "version": "1.14.0"
+    },
+    "websockets": {
+      "ok": true,
+      "version": "16.0"
     }
   },
   "commands": {
@@ -94,11 +106,13 @@
     "rtx_4060_visible": true,
     "compressai_imports": true,
     "ffmpeg_available": true,
-    "bdrate_library_available": true
+    "bdrate_library_available": true,
+    "webrtc_stack_available": true
   },
   "ok": true,
   "notes": [
     "python-bdrate was unavailable for this Python/PyPI combination; bjontegaard==1.3.0 is used instead.",
-    "OpenCV is pinned to 4.10.0.84 because CompressAI 1.2.8 requires numpy<2.0."
+    "OpenCV is pinned to 4.10.0.84 because CompressAI 1.2.8 requires numpy<2.0.",
+    "aiortc==1.14.0 pins av<17, so av==16.1.0 is recorded for WebRTC loopback work."
   ]
 }

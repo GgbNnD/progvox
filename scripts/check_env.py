@@ -27,6 +27,7 @@ REQUIRED_MODULES = [
     "torchaudio",
     "compressai",
     "cv2",
+    "av",
     "numpy",
     "pandas",
     "matplotlib",
@@ -36,6 +37,8 @@ REQUIRED_MODULES = [
     "bjontegaard",
     "yaml",
     "tqdm",
+    "aiortc",
+    "websockets",
 ]
 
 
@@ -120,6 +123,7 @@ def build_report() -> dict[str, Any]:
         "compressai_imports": modules["compressai"]["ok"],
         "ffmpeg_available": ffmpeg.get("available") and ffmpeg.get("returncode") == 0,
         "bdrate_library_available": modules["bjontegaard"]["ok"],
+        "webrtc_stack_available": modules["aiortc"]["ok"] and modules["websockets"]["ok"] and modules["av"]["ok"],
     }
 
     return {
@@ -139,6 +143,7 @@ def build_report() -> dict[str, Any]:
         "notes": [
             "python-bdrate was unavailable for this Python/PyPI combination; bjontegaard==1.3.0 is used instead.",
             "OpenCV is pinned to 4.10.0.84 because CompressAI 1.2.8 requires numpy<2.0.",
+            "aiortc==1.14.0 pins av<17, so av==16.1.0 is recorded for WebRTC loopback work.",
         ],
     }
 
@@ -158,9 +163,12 @@ def write_text_summary(report: dict[str, Any], path: Path) -> None:
         f"- GPU devices: {', '.join(device['name'] for device in torch_info.get('devices', [])) or 'none'}",
         f"- CompressAI: {report['modules']['compressai'].get('version')}",
         f"- OpenCV: {report['modules']['cv2'].get('version')}",
+        f"- PyAV: {report['modules']['av'].get('version')}",
         f"- NumPy: {report['modules']['numpy'].get('version')}",
         f"- BD-Rate helper: bjontegaard {report['modules']['bjontegaard'].get('version')}",
         f"- ffmpeg: {ffmpeg_first_line}",
+        f"- aiortc: {report['modules']['aiortc'].get('version')}",
+        f"- websockets: {report['modules']['websockets'].get('version')}",
         "",
         "## Checks",
         "",

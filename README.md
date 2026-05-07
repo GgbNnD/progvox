@@ -13,6 +13,7 @@ python scripts/prepare_test_videos.py --input data/raw/xiph_small --output data/
 python eval/run_lvc_baseline.py --input data/processed/xiph_small_clips --qualities 1 2 3 4
 python scripts/simulate_scheduler.py
 python scripts/simulate_abr.py
+python scripts/run_webrtc_loopback.py
 ```
 
 ## 目录

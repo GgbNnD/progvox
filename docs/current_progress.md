@@ -2,7 +2,7 @@
 
 ## 总览
 
-项目已完成阶段一、阶段二和阶段三的可运行原型闭环，当前已从“离线压缩/生成链路”推进到“渐进式传输与网络自适应”，下一步进入 WebRTC/DataChannel 联调。
+项目已完成阶段一、阶段二、阶段三和阶段 4.1 本地 WebRTC smoke test，当前已从“离线压缩/生成链路”推进到“WebRTC/DataChannel 联调”。
 
 ## 已完成提交
 
@@ -66,8 +66,16 @@
 - `scripts/simulate_abr.py` 已生成 `analysis_abr.ipynb`、`docs/abr_analysis.md` 和 ABR 曲线图。
 - 同一弱网 trace 下，ABR-capped sliding window 将发送码率从 248.0 kbps 降到 189.5 kbps，stall rate 保持 3.3%；代价是 render-PSNR proxy 从 20.86 降到 19.56。
 
+## 阶段 4.1 成果
+
+- `alg` 环境已安装 `aiortc==1.14.0`、`websockets==16.0`、`av==16.1.0`。
+- `transport/webrtc_loopback.py` 已实现同进程 offer/answer、DataChannel echo 和合成视频轨道。
+- `scripts/run_webrtc_loopback.py` 已输出 `reports/webrtc_loopback.json` 和 `docs/webrtc_loopback_report.md`。
+- 最新 smoke test：DataChannel 5/5 ack，视频收帧 12，sender/receiver 均 connected。
+- Janus 部署草案：`docs/janus_setup.md`；信令流程：`docs/webrtc_signaling_flow.md`。
+
 ## 当前待办
 
-- 阶段 4.1：准备 Janus 或本地 WebRTC loopback 环境，优先验证最小可运行连接。
 - 阶段 4.2：实现 `transport/datachannel_proto.py`，把 token 层级、帧号、deadline 和 payload 打包为 DataChannel 二进制包。
+- 增加乱序重组、超时丢弃和丢包率仿真报告。
 - 阶段 4.3：把 tokenizer/context/generator/scheduler/ABR 接入离线 loopback，再推进实时摄像头 demo。
