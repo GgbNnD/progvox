@@ -1,0 +1,15 @@
+{
+  "source": "news_cif_352x288_29.97fps_8bit_P420",
+  "name": "ssf2020",
+  "description": "Inference (entropy-estimation)",
+  "results": {
+    "psnr-y": 32.36498260498047,
+    "psnr-u": 36.425926208496094,
+    "psnr-v": 40.65082550048828,
+    "psnr-yuv": 34.42278289794922,
+    "ms-ssim-rgb": 0.9723255634307861,
+    "mse-rgb": 47.46576690673828,
+    "psnr-rgb": 31.408504486083984,
+    "bitrate": 247.8273289210789
+  }
+}

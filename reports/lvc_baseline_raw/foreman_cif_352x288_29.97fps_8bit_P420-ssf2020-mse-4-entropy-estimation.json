@@ -1,0 +1,15 @@
+{
+  "source": "foreman_cif_352x288_29.97fps_8bit_P420",
+  "name": "ssf2020",
+  "description": "Inference (entropy-estimation)",
+  "results": {
+    "psnr-y": 34.52891540527344,
+    "psnr-u": 42.278160095214844,
+    "psnr-v": 44.65852355957031,
+    "psnr-yuv": 37.50872802734375,
+    "ms-ssim-rgb": 0.9794262051582336,
+    "mse-rgb": 26.155288696289062,
+    "psnr-rgb": 33.959754943847656,
+    "bitrate": 501.92091112012986
+  }
+}
