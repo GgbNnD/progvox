@@ -9,11 +9,12 @@
 - 2026-05-08：新增 Xiph 小样本 manifest、并发断点下载、数据统计和 64 帧 YUV420 预处理脚本；五个样本均已下载和预处理。
 - 2026-05-08：新增并运行 SSF2020 baseline 包装器，输出 `reports/ssf2020_rd_points.csv`、`reports/lvc_baseline.md` 和 RD 曲线图。
 - 2026-05-08：完成阶段 2.1 tokenizer 原型：4/8/16/32 多尺度残差 token map、RGB 向量码本量化、截断重建、单测和 50 帧分析报告。
+- 2026-05-08：完成阶段 2.2 生成器小型消融：纯 CNN、CNN+GAN、轻量 Diffusion 均可训练/推理，`cnn_gan` 在短程实验中暂时领先。
 
 ## 当前阶段
 
 - 阶段二：生成式压缩核心实现。
-- 当前重点：基于已完成的 tokenizer 原型推进生成器和上下文模型。
+- 当前重点：基于 tokenizer 与生成器推进自回归上下文模型和端到端 codec。
 
 ## 检查点
 
@@ -26,3 +27,6 @@
 - [x] `models/tokenizer.py` 输出 K=4 多尺度 token map 并支持截断重建。
 - [x] `tests/test_tokenizer.py` 通过并写入 `reports/test_tokenizer.txt`。
 - [x] `analysis_tokenizer.ipynb` 与 `docs/tokenizer_analysis.md` 记录 50 帧 token 码率/质量分析。
+- [x] `models/generator.py` 包含 CNN、PatchGAN 判别器和轻量 conditional diffusion。
+- [x] `train/train_generator.yaml` 与 `train/train_generator.py` 可运行小型生成器消融。
+- [x] `docs/generator_ablation.md` 记录 PSNR、SSIM、LPIPS、FID-lite 和当前方案选择。

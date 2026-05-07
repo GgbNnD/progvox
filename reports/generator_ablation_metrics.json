@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-05-07T18:00:42.705482+00:00",
+  "device": "cuda",
+  "config": {
+    "seed": 20260508,
+    "input": "data/processed/xiph_small_clips",
+    "resize": 64,
+    "condition_level": 2,
+    "train_frames": 80,
+    "val_frames": 20,
+    "batch_size": 8,
+    "base_channels": 24,
+    "learning_rate": 0.0005,
+    "gan_learning_rate": 0.0003,
+    "gan_weight": 0.01,
+    "log_dir": "runs/generator_ablation",
+    "checkpoint_dir": "checkpoints/generator",
+    "report_dir": "reports",
+    "docs_report": "docs/generator_ablation.md",
+    "sample_image": "reports/generator_ablation_samples.png",
+    "lpips": {
+      "enabled": true,
+      "pnet_rand": true
+    },
+    "diffusion": {
+      "train_steps": 30,
+      "sample_steps": 4
+    },
+    "models": {
+      "pure_cnn": {
+        "train_steps": 40
+      },
+      "cnn_gan": {
+        "train_steps": 40
+      }
+    }
+  },
+  "rows": [
+    {
+      "model": "pure_cnn",
+      "psnr": 24.204086303710938,
+      "ssim": 0.733620285987854,
+      "lpips": 0.02312353067100048,
+      "fid_lite": 0.005370700740704833
+    },
+    {
+      "model": "cnn_gan",
+      "psnr": 24.251121520996094,
+      "ssim": 0.7310248613357544,
+      "lpips": 0.02351749874651432,
+      "fid_lite": 0.004435587470302111
+    },
+    {
+      "model": "tiny_diffusion",
+      "psnr": 13.813725471496582,
+      "ssim": 0.15845590829849243,
+      "lpips": 0.08814162015914917,
+      "fid_lite": 0.04528240866923462
+    }
+  ],
+  "checkpoints": {
+    "pure_cnn": "checkpoints/generator/pure_cnn.pth",
+    "cnn_gan": "checkpoints/generator/cnn_gan.pth",
+    "cnn_gan_discriminator": "checkpoints/generator/cnn_gan_discriminator.pth",
+    "tiny_diffusion": "checkpoints/generator/tiny_diffusion.pth"
+  },
+  "lpips_mode": "lpips-alex-rand"
+}

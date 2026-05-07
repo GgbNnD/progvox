@@ -1,0 +1,27 @@
+seed: 20260508
+input: data/processed/xiph_small_clips
+resize: 64
+condition_level: 2
+train_frames: 80
+val_frames: 20
+batch_size: 8
+base_channels: 24
+learning_rate: 0.0005
+gan_learning_rate: 0.0003
+gan_weight: 0.01
+log_dir: runs/generator_ablation
+checkpoint_dir: checkpoints/generator
+report_dir: reports
+docs_report: docs/generator_ablation.md
+sample_image: reports/generator_ablation_samples.png
+lpips:
+  enabled: true
+  pnet_rand: true
+diffusion:
+  train_steps: 30
+  sample_steps: 4
+models:
+  pure_cnn:
+    train_steps: 40
+  cnn_gan:
+    train_steps: 40
