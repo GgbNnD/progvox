@@ -1,0 +1,26 @@
+name: alg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.19
+  - ffmpeg=7.1.0
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.9.1+cu130
+      - torchvision==0.24.1+cu130
+      - torchaudio==2.9.1+cu130
+      - compressai==1.2.8
+      - numpy==1.26.4
+      - opencv-python==4.10.0.84
+      - pandas==2.3.3
+      - matplotlib==3.10.8
+      - scikit-image==0.25.2
+      - pytorch-msssim==1.0.0
+      - lpips==0.1.4
+      - bjontegaard==1.3.0
+      - pytest==9.0.3
+      - jupyter==1.1.1
+      - pyyaml==6.0.3
+      - tqdm==4.67.1
