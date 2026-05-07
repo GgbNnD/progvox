@@ -16,11 +16,12 @@
 - 2026-05-08：完成阶段 3.2 规则型 ABR 控制器：基于吞吐 EWMA、RTT、丢包和升档滞后选择最大 token 层级，并输出 trace-driven notebook/报告。
 - 2026-05-08：完成阶段 4.1 本地 WebRTC loopback smoke test：安装 `aiortc`/`websockets`，验证 DataChannel ping/ack 和合成视频轨道收帧。
 - 2026-05-08：完成阶段 4.2 DataChannel token 协议：实现二进制打包/解包、乱序重组、deadline/timeout 丢弃和丢包鲁棒性仿真。
+- 2026-05-08：完成阶段 4.3 离线端到端 loopback：串联 tokenizer、ABR、调度仿真、DataChannel protocol、context fallback 和 CNN-GAN generator，输出延迟/显存/码率/卡顿率报告。
 
 ## 当前阶段
 
 - 阶段四：WebRTC 集成与端到端系统联调。
-- 当前重点：进入阶段 4.3，离线 loopback 到端到端 demo 集成。
+- 当前重点：推进实时 DataChannel loopback 与最终报告整理。
 
 ## 检查点
 
@@ -50,5 +51,7 @@
 - [x] `transport/datachannel_proto.py` 实现 token 二进制包协议。
 - [x] `tests/test_protocol.py` 验证打包/解包、乱序和超时处理。
 - [x] `docs/protocol_robustness.md` 记录 1%/3%/5% 丢包鲁棒性结果。
-- [ ] 离线 WebRTC/DataChannel token loopback 集成。
-- [ ] `sender_main.py` / `receiver_main.py` 原型入口。
+- [x] 离线 WebRTC/DataChannel token loopback 集成。
+- [x] `sender_main.py` / `receiver_main.py` 原型入口。
+- [ ] live aiortc DataChannel token packet loopback。
+- [ ] `docs/final_report.md` 汇总最终课程报告。

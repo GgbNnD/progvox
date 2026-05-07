@@ -15,6 +15,7 @@ python scripts/simulate_scheduler.py
 python scripts/simulate_abr.py
 python scripts/run_webrtc_loopback.py
 python scripts/simulate_datachannel_proto.py
+python scripts/run_offline_loopback.py --frames 64
 ```
 
 ## 目录

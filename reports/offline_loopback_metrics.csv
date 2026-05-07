@@ -1,0 +1,2 @@
+frames,stall_rate,sent_bitrate_kbps,psnr_rgb,ssim_rgb,avg_selected_layer,avg_delivered_layer,encode_ms_per_frame,packetize_ms_per_frame,reassemble_ms_per_frame,decode_ms_per_frame,generator_ms_per_frame,estimated_e2e_latency_ms,gpu_peak_memory_mb
+64,0.0625,251.01748124999995,17.583234786987305,0.517462968826294,1.625,1.7166666666666666,1.7725867655826733,0.12373654772090958,0.017796452084439807,1.3633970943374152,1.841577796767524,136.20497489110494,284.107421875
