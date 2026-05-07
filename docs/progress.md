@@ -13,11 +13,12 @@
 - 2026-05-08：完成阶段 2.3 离线 ProGVC 原型链路：tokenizer、上下文模型接口、缺失 token fallback、CNN+GAN 生成器和集成评测报告。
 - 2026-05-08：正式训练上下文模型：基于 Xiph 小样本生成 1360 长度 token 序列，保存本地 checkpoint/TensorBoard 日志，并归档训练指标与报告。
 - 2026-05-08：完成阶段 3.1 分层 token 调度器：实现贪婪/滑动窗口策略、固定弱网 trace 仿真、性能对比报告和弱网复现指南。
+- 2026-05-08：完成阶段 3.2 规则型 ABR 控制器：基于吞吐 EWMA、RTT、丢包和升档滞后选择最大 token 层级，并输出 trace-driven notebook/报告。
 
 ## 当前阶段
 
-- 阶段三：渐进式传输与自适应码率。
-- 当前重点：进入阶段 3.2，自适应码率 ABR 控制器与 trace-driven 决策验证。
+- 阶段四：WebRTC 集成与端到端系统联调。
+- 当前重点：进入阶段 4.1，规划 Janus/WebRTC 服务部署与基础 loopback。
 
 ## 检查点
 
@@ -40,5 +41,7 @@
 - [x] `transport/scheduler.py` 实现分层 token 调度器。
 - [x] `docs/network_emu_guide.md` 记录弱网环境复现方法。
 - [x] `docs/scheduler_comparison.md` 对比贪婪调度和滑动窗口调度。
-- [ ] `models/abr_controller.py` 实现规则型 ABR 控制器。
-- [ ] `analysis_abr.ipynb` 完成 trace-driven ABR 决策验证。
+- [x] `models/abr_controller.py` 实现规则型 ABR 控制器。
+- [x] `analysis_abr.ipynb` 完成 trace-driven ABR 决策验证。
+- [ ] Janus 或本地 WebRTC loopback 环境部署文档。
+- [ ] 基础 WebRTC/DataChannel 连接验证。

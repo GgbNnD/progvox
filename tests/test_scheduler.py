@@ -42,3 +42,19 @@ def test_simulation_summary_contains_transport_metrics():
     assert 0.0 <= summary["stall_rate"] <= 1.0
     assert summary["sent_bitrate_kbps"] > 0.0
     assert -1 in summary["layer_counts"]
+
+
+def test_simulation_respects_frame_max_level_caps():
+    layers = default_video_call_layers()
+    trace = [TracePoint(bandwidth_kbps=1000.0, duration_ms=33.33) for _ in range(8)]
+    result = simulate(
+        SlidingWindowScheduler(),
+        trace,
+        layers,
+        num_frames=4,
+        fps=30.0,
+        playback_delay_ms=100.0,
+        frame_max_levels=[0, 1, 2, 3],
+    )
+
+    assert [frame.max_layer for frame in result.frames] == [0, 1, 2, 3]

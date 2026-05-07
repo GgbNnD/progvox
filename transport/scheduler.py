@@ -44,11 +44,17 @@ class FrameState:
     generated_at_ms: float
     deadline_ms: float
     delivered_bits: list[int]
+    max_level: int | None = None
     finalized: bool = False
+
+    def allowed_max_level(self, layer_specs: Sequence[TokenLayerSpec]) -> int:
+        if self.max_level is None:
+            return len(layer_specs) - 1
+        return min(max(0, self.max_level), len(layer_specs) - 1)
 
     def max_complete_layer(self, layer_specs: Sequence[TokenLayerSpec]) -> int:
         complete = -1
-        for index, spec in enumerate(layer_specs):
+        for index, spec in enumerate(layer_specs[: self.allowed_max_level(layer_specs) + 1]):
             if self.delivered_bits[index] >= spec.bits:
                 complete = index
             else:
@@ -56,7 +62,7 @@ class FrameState:
         return complete
 
     def next_missing_layer(self, layer_specs: Sequence[TokenLayerSpec]) -> int | None:
-        for index, spec in enumerate(layer_specs):
+        for index, spec in enumerate(layer_specs[: self.allowed_max_level(layer_specs) + 1]):
             if self.delivered_bits[index] < spec.bits:
                 return index
         return None
@@ -283,6 +289,7 @@ def simulate(
     num_frames: int,
     fps: float = 30.0,
     playback_delay_ms: float = 133.0,
+    frame_max_levels: Sequence[int] | None = None,
 ) -> SimulationResult:
     """Run a deadline-based progressive token delivery simulation."""
 
@@ -294,6 +301,8 @@ def simulate(
         raise ValueError("playback_delay_ms must be positive")
     if not layer_specs:
         raise ValueError("layer_specs cannot be empty")
+    if frame_max_levels is not None and len(frame_max_levels) < num_frames:
+        raise ValueError("frame_max_levels must contain at least num_frames values")
 
     interval_ms = 1000.0 / fps
     states: list[FrameState] = []
@@ -324,12 +333,14 @@ def simulate(
         finalize_until(now_ms)
 
         if slot < num_frames:
+            frame_max_level = None if frame_max_levels is None else int(frame_max_levels[slot])
             states.append(
                 FrameState(
                     frame_id=slot,
                     generated_at_ms=now_ms,
                     deadline_ms=now_ms + playback_delay_ms,
                     delivered_bits=[0 for _ in layer_specs],
+                    max_level=frame_max_level,
                 )
             )
 

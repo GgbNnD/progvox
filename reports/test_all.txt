@@ -1,4 +1,4 @@
-...................                                                      [100%]
+.......................                                                  [100%]
 =============================== warnings summary ===============================
 tests/test_context_model.py::test_context_transformer_forward_and_loss_shapes
 tests/test_context_model.py::test_greedy_predict_uses_fallback_beyond_budget
@@ -6,5 +6,5 @@ tests/test_progvc_codec.py::test_fallback_predict_tokens_returns_full_scale_set
   Warning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
 
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-19 passed, 3 warnings in 1.26s
+23 passed, 3 warnings in 1.29s
 

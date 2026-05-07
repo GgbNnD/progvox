@@ -12,6 +12,7 @@ python scripts/dataset_stats.py --input data/raw/xiph_small --output reports/dat
 python scripts/prepare_test_videos.py --input data/raw/xiph_small --output data/processed/xiph_small_clips
 python eval/run_lvc_baseline.py --input data/processed/xiph_small_clips --qualities 1 2 3 4
 python scripts/simulate_scheduler.py
+python scripts/simulate_abr.py
 ```
 
 ## 目录

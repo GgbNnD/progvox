@@ -2,7 +2,7 @@
 
 ## 总览
 
-项目已完成阶段一、阶段二和阶段 3.1 的可运行原型闭环，当前已从“离线压缩/生成链路”推进到“渐进式传输与网络自适应”。
+项目已完成阶段一、阶段二和阶段三的可运行原型闭环，当前已从“离线压缩/生成链路”推进到“渐进式传输与网络自适应”，下一步进入 WebRTC/DataChannel 联调。
 
 ## 已完成提交
 
@@ -17,6 +17,7 @@
 - `284b686 feat(codec): add progvc integration prototype`
 - `9327d4f docs: consolidate rules context and progress`
 - `8dcb946 feat(context): train token context model`
+- `4f99adf feat(transport): add token scheduler simulation`
 
 ## 阶段一成果
 
@@ -57,8 +58,16 @@
 - 对比结果：贪婪调度 stall rate 10.0%，滑动窗口 3.3%；PSNR fluctuation 从 0.71 降到 0.47。
 - 报告：`docs/scheduler_comparison.md`，弱网复现指南：`docs/network_emu_guide.md`。
 
+## 阶段 3.2 成果
+
+- `models/abr_controller.py` 已实现规则型 ABR 控制器。
+- 控制输入包括 throughput、RTT、loss rate、queue delay。
+- 策略包括吞吐 EWMA、安全余量、拥塞降级和稳定升档滞后。
+- `scripts/simulate_abr.py` 已生成 `analysis_abr.ipynb`、`docs/abr_analysis.md` 和 ABR 曲线图。
+- 同一弱网 trace 下，ABR-capped sliding window 将发送码率从 248.0 kbps 降到 189.5 kbps，stall rate 保持 3.3%；代价是 render-PSNR proxy 从 20.86 降到 19.56。
+
 ## 当前待办
 
-- 阶段 3.2：实现 `models/abr_controller.py`，根据 RTT/丢包/吞吐估计选择最大 token 层级。
-- 输出 `analysis_abr.ipynb`，使用 trace-driven 曲线验证 ABR 决策逻辑。
-- 将阶段 3.1 调度器结果与后续 ABR 控制器接起来，为 DataChannel 协议做准备。
+- 阶段 4.1：准备 Janus 或本地 WebRTC loopback 环境，优先验证最小可运行连接。
+- 阶段 4.2：实现 `transport/datachannel_proto.py`，把 token 层级、帧号、deadline 和 payload 打包为 DataChannel 二进制包。
+- 阶段 4.3：把 tokenizer/context/generator/scheduler/ABR 接入离线 loopback，再推进实时摄像头 demo。
