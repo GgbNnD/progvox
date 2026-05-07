@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-07T18:06:01.450724+00:00",
+  "device": "cuda",
+  "input_clip": "data/processed/xiph_small_clips/foreman_cif_352x288_29.97fps_8bit_P420.yuv",
+  "frames": 20,
+  "resize": 64,
+  "fps": 29.97,
+  "rows": [
+    {
+      "variant": "progvc_l2_cnn_gan",
+      "max_level": 2,
+      "bitrate_kbps": 90.62928,
+      "psnr_rgb": 19.500703811645508,
+      "ssim_rgb": 0.6416617035865784,
+      "lpips": 0.017125790938735008,
+      "video_path": "reports/videos/progvc_codec/progvc_l2_cnn_gan.mp4"
+    },
+    {
+      "variant": "progvc_l3_cnn_gan",
+      "max_level": 3,
+      "bitrate_kbps": 366.83279999999996,
+      "psnr_rgb": 23.701236724853516,
+      "ssim_rgb": 0.8814539909362793,
+      "lpips": 0.006148509681224823,
+      "video_path": "reports/videos/progvc_codec/progvc_l3_cnn_gan.mp4"
+    }
+  ],
+  "lpips_mode": "lpips-alex-rand",
+  "context_mode": "untrained_transformer_zero_residual_fallback"
+}

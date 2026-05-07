@@ -286,3 +286,12 @@ class MultiScaleResidualTokenizer(nn.Module):
         """Return per-level token bit counts."""
 
         return [int(token.numel() * self.bits_per_token) for token in tokens]
+
+    def zero_token_ids(self) -> list[int]:
+        """Return the nearest-to-zero residual token id for each scale."""
+
+        ids = []
+        for quantizer in self.quantizers:
+            codebook = quantizer.codebook.detach()
+            ids.append(int(codebook.pow(2).sum(dim=1).argmin().item()))
+        return ids

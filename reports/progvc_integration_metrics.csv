@@ -1,0 +1,3 @@
+variant,max_level,bitrate_kbps,psnr_rgb,ssim_rgb,lpips,video_path
+progvc_l2_cnn_gan,2,90.62928,19.500703811645508,0.6416617035865784,0.017125790938735008,reports/videos/progvc_codec/progvc_l2_cnn_gan.mp4
+progvc_l3_cnn_gan,3,366.83279999999996,23.701236724853516,0.8814539909362793,0.006148509681224823,reports/videos/progvc_codec/progvc_l3_cnn_gan.mp4
